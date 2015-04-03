@@ -14,6 +14,7 @@
 		4F8D0EDC1ACF042B004CEBDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D0EDB1ACF042B004CEBDF /* Images.xcassets */; };
 		4F8D0EDF1ACF042B004CEBDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D0EDD1ACF042B004CEBDF /* LaunchScreen.xib */; };
 		4F8D0EEB1ACF042B004CEBDF /* SDKSandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0EEA1ACF042B004CEBDF /* SDKSandboxTests.m */; };
+		4F8D0EF61ACF0448004CEBDF /* FlintConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8D0EF51ACF0448004CEBDF /* FlintConnect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		4F8D0EE41ACF042B004CEBDF /* SDKSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8D0EE91ACF042B004CEBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F8D0EEA1ACF042B004CEBDF /* SDKSandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKSandboxTests.m; sourceTree = "<group>"; };
+		4F8D0EF51ACF0448004CEBDF /* FlintConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlintConnect.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F8D0EF61ACF0448004CEBDF /* FlintConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		4F8D0EC21ACF042B004CEBDF = {
 			isa = PBXGroup;
 			children = (
+				4F8D0EF41ACF0438004CEBDF /* Framework */,
 				4F8D0ECD1ACF042B004CEBDF /* SDKSandbox */,
 				4F8D0EE71ACF042B004CEBDF /* SDKSandboxTests */,
 				4F8D0ECC1ACF042B004CEBDF /* Products */,
@@ -117,6 +121,14 @@
 				4F8D0EE91ACF042B004CEBDF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4F8D0EF41ACF0438004CEBDF /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				4F8D0EF51ACF0448004CEBDF /* FlintConnect.framework */,
+			);
+			name = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +355,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SDKSandbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +369,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SDKSandbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
