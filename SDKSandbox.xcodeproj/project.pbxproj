@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F5EB98D1B98F7A900B4C76E /* FlintConnectSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5EB98C1B98F7A900B4C76E /* FlintConnectSDK.framework */; };
+		4F5EB98E1B98F7A900B4C76E /* FlintConnectSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5EB98C1B98F7A900B4C76E /* FlintConnectSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F8D0ED11ACF042B004CEBDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0ED01ACF042B004CEBDF /* main.m */; };
 		4F8D0ED41ACF042B004CEBDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0ED31ACF042B004CEBDF /* AppDelegate.m */; };
 		4F8D0ED71ACF042B004CEBDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0ED61ACF042B004CEBDF /* ViewController.m */; };
@@ -14,7 +16,6 @@
 		4F8D0EDC1ACF042B004CEBDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D0EDB1ACF042B004CEBDF /* Images.xcassets */; };
 		4F8D0EDF1ACF042B004CEBDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D0EDD1ACF042B004CEBDF /* LaunchScreen.xib */; };
 		4F8D0EEB1ACF042B004CEBDF /* SDKSandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0EEA1ACF042B004CEBDF /* SDKSandboxTests.m */; };
-		4F8D11311ACF3DFB004CEBDF /* FlintConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8D11301ACF3DFB004CEBDF /* FlintConnect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +28,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4F5EB98F1B98F7A900B4C76E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4F5EB98E1B98F7A900B4C76E /* FlintConnectSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		4F5EB98C1B98F7A900B4C76E /* FlintConnectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlintConnectSDK.framework; sourceTree = "<group>"; };
 		4F8D0ECB1ACF042B004CEBDF /* SDKSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8D0ECF1ACF042B004CEBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F8D0ED01ACF042B004CEBDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,7 +57,6 @@
 		4F8D0EE41ACF042B004CEBDF /* SDKSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8D0EE91ACF042B004CEBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F8D0EEA1ACF042B004CEBDF /* SDKSandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKSandboxTests.m; sourceTree = "<group>"; };
-		4F8D11301ACF3DFB004CEBDF /* FlintConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FlintConnect.framework; path = ../../../Desktop/FlintConnect.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8D11311ACF3DFB004CEBDF /* FlintConnect.framework in Frameworks */,
+				4F5EB98D1B98F7A900B4C76E /* FlintConnectSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +81,7 @@
 		4F8D0EC21ACF042B004CEBDF = {
 			isa = PBXGroup;
 			children = (
-				4F8D11301ACF3DFB004CEBDF /* FlintConnect.framework */,
+				4F5EB98C1B98F7A900B4C76E /* FlintConnectSDK.framework */,
 				4F8D0ECD1ACF042B004CEBDF /* SDKSandbox */,
 				4F8D0EE71ACF042B004CEBDF /* SDKSandboxTests */,
 				4F8D0ECC1ACF042B004CEBDF /* Products */,
@@ -133,6 +148,7 @@
 				4F8D0EC71ACF042B004CEBDF /* Sources */,
 				4F8D0EC81ACF042B004CEBDF /* Frameworks */,
 				4F8D0EC91ACF042B004CEBDF /* Resources */,
+				4F5EB98F1B98F7A900B4C76E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -426,6 +442,7 @@
 				4F8D0EF01ACF042B004CEBDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F8D0EF11ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "SDKSandboxTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +451,7 @@
 				4F8D0EF31ACF042B004CEBDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

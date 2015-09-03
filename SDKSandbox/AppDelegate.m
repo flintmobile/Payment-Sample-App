@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <FlintConnect/FlintConnect.h>
 
 @interface AppDelegate ()
 
