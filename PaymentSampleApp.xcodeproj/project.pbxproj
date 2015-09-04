@@ -94,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				4F5EB98C1B98F7A900B4C76E /* FlintConnectSDK.framework */,
-				4F8D0ECD1ACF042B004CEBDF /* SDKSandbox */,
-				4F8D0EE71ACF042B004CEBDF /* SDKSandboxTests */,
+				4F8D0ECD1ACF042B004CEBDF /* PaymentSampleApp */,
+				4F8D0EE71ACF042B004CEBDF /* PaymentSampleAppTests */,
 				4F8D0ECC1ACF042B004CEBDF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4F8D0ECD1ACF042B004CEBDF /* SDKSandbox */ = {
+		4F8D0ECD1ACF042B004CEBDF /* PaymentSampleApp */ = {
 			isa = PBXGroup;
 			children = (
 				4F5EB9901B9A15C300B4C76E /* Subclass UI */,
@@ -122,7 +122,7 @@
 				4F8D0EDD1ACF042B004CEBDF /* LaunchScreen.xib */,
 				4F8D0ECE1ACF042B004CEBDF /* Supporting Files */,
 			);
-			path = SDKSandbox;
+			path = PaymentSampleApp;
 			sourceTree = "<group>";
 		};
 		4F8D0ECE1ACF042B004CEBDF /* Supporting Files */ = {
@@ -134,13 +134,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4F8D0EE71ACF042B004CEBDF /* SDKSandboxTests */ = {
+		4F8D0EE71ACF042B004CEBDF /* PaymentSampleAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				4F8D0EEA1ACF042B004CEBDF /* SDKSandboxTests.m */,
 				4F8D0EE81ACF042B004CEBDF /* Supporting Files */,
 			);
-			path = SDKSandboxTests;
+			path = PaymentSampleAppTests;
 			sourceTree = "<group>";
 		};
 		4F8D0EE81ACF042B004CEBDF /* Supporting Files */ = {
