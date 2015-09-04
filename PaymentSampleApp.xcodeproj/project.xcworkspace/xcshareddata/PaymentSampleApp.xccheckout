@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DD5C8E28-77C0-4D69-A9F8-A61F9BDEBA1D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PaymentSampleApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DB65C5DBD9CFEBC700901062143A739B582B9746</key>
+		<string>https://github.com/flintmobile/SDKSandbox.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PaymentSampleApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DB65C5DBD9CFEBC700901062143A739B582B9746</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/flintmobile/SDKSandbox.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DB65C5DBD9CFEBC700901062143A739B582B9746</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DB65C5DBD9CFEBC700901062143A739B582B9746</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SDKSandbox</string>
+		</dict>
+	</array>
+</dict>
+</plist>

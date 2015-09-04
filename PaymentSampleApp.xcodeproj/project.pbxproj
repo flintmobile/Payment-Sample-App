@@ -47,7 +47,7 @@
 		4F5EB98C1B98F7A900B4C76E /* FlintConnectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlintConnectSDK.framework; sourceTree = "<group>"; };
 		4F5EB9911B9A15F100B4C76E /* PMTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMTTextField.h; sourceTree = "<group>"; };
 		4F5EB9921B9A15F100B4C76E /* PMTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMTTextField.m; sourceTree = "<group>"; };
-		4F8D0ECB1ACF042B004CEBDF /* SDKSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8D0ECB1ACF042B004CEBDF /* PaymentSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8D0ECF1ACF042B004CEBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F8D0ED01ACF042B004CEBDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F8D0ED21ACF042B004CEBDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		4F8D0ED91ACF042B004CEBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F8D0EDB1ACF042B004CEBDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F8D0EDE1ACF042B004CEBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4F8D0EE41ACF042B004CEBDF /* SDKSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8D0EE41ACF042B004CEBDF /* PaymentSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8D0EE91ACF042B004CEBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F8D0EEA1ACF042B004CEBDF /* SDKSandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKSandboxTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,8 +103,8 @@
 		4F8D0ECC1ACF042B004CEBDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4F8D0ECB1ACF042B004CEBDF /* SDKSandbox.app */,
-				4F8D0EE41ACF042B004CEBDF /* SDKSandboxTests.xctest */,
+				4F8D0ECB1ACF042B004CEBDF /* PaymentSampleApp.app */,
+				4F8D0EE41ACF042B004CEBDF /* PaymentSampleAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4F8D0ECA1ACF042B004CEBDF /* SDKSandbox */ = {
+		4F8D0ECA1ACF042B004CEBDF /* PaymentSampleApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F8D0EEE1ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "SDKSandbox" */;
+			buildConfigurationList = 4F8D0EEE1ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "PaymentSampleApp" */;
 			buildPhases = (
 				4F8D0EC71ACF042B004CEBDF /* Sources */,
 				4F8D0EC81ACF042B004CEBDF /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = SDKSandbox;
+			name = PaymentSampleApp;
 			productName = SDKSandbox;
-			productReference = 4F8D0ECB1ACF042B004CEBDF /* SDKSandbox.app */;
+			productReference = 4F8D0ECB1ACF042B004CEBDF /* PaymentSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F8D0EE31ACF042B004CEBDF /* SDKSandboxTests */ = {
+		4F8D0EE31ACF042B004CEBDF /* PaymentSampleAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F8D0EF11ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "SDKSandboxTests" */;
+			buildConfigurationList = 4F8D0EF11ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "PaymentSampleAppTests" */;
 			buildPhases = (
 				4F8D0EE01ACF042B004CEBDF /* Sources */,
 				4F8D0EE11ACF042B004CEBDF /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				4F8D0EE61ACF042B004CEBDF /* PBXTargetDependency */,
 			);
-			name = SDKSandboxTests;
+			name = PaymentSampleAppTests;
 			productName = SDKSandboxTests;
-			productReference = 4F8D0EE41ACF042B004CEBDF /* SDKSandboxTests.xctest */;
+			productReference = 4F8D0EE41ACF042B004CEBDF /* PaymentSampleAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4F8D0EC61ACF042B004CEBDF /* Build configuration list for PBXProject "SDKSandbox" */;
+			buildConfigurationList = 4F8D0EC61ACF042B004CEBDF /* Build configuration list for PBXProject "PaymentSampleApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,8 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4F8D0ECA1ACF042B004CEBDF /* SDKSandbox */,
-				4F8D0EE31ACF042B004CEBDF /* SDKSandboxTests */,
+				4F8D0ECA1ACF042B004CEBDF /* PaymentSampleApp */,
+				4F8D0EE31ACF042B004CEBDF /* PaymentSampleAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -272,7 +272,7 @@
 /* Begin PBXTargetDependency section */
 		4F8D0EE61ACF042B004CEBDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4F8D0ECA1ACF042B004CEBDF /* SDKSandbox */;
+			target = 4F8D0ECA1ACF042B004CEBDF /* PaymentSampleApp */;
 			targetProxy = 4F8D0EE51ACF042B004CEBDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -384,7 +384,7 @@
 				);
 				INFOPLIST_FILE = SDKSandbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PaymentSampleApp;
 			};
 			name = Debug;
 		};
@@ -399,7 +399,7 @@
 				);
 				INFOPLIST_FILE = SDKSandbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PaymentSampleApp;
 			};
 			name = Release;
 		};
@@ -417,7 +417,7 @@
 				);
 				INFOPLIST_FILE = SDKSandboxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PaymentSampleAppTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDKSandbox.app/SDKSandbox";
 			};
 			name = Debug;
@@ -432,7 +432,7 @@
 				);
 				INFOPLIST_FILE = SDKSandboxTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PaymentSampleAppTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDKSandbox.app/SDKSandbox";
 			};
 			name = Release;
@@ -440,7 +440,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4F8D0EC61ACF042B004CEBDF /* Build configuration list for PBXProject "SDKSandbox" */ = {
+		4F8D0EC61ACF042B004CEBDF /* Build configuration list for PBXProject "PaymentSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F8D0EEC1ACF042B004CEBDF /* Debug */,
@@ -449,7 +449,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F8D0EEE1ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "SDKSandbox" */ = {
+		4F8D0EEE1ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "PaymentSampleApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F8D0EEF1ACF042B004CEBDF /* Debug */,
@@ -458,7 +458,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F8D0EF11ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "SDKSandboxTests" */ = {
+		4F8D0EF11ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "PaymentSampleAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4F8D0EF21ACF042B004CEBDF /* Debug */,
