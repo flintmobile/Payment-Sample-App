@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RWc-Oq-Q1Z">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Item View Controller-->
+        <!--Item For Payment-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="PMTItemViewController" sceneMemberID="viewController">
@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvB-E4-Xeb">
@@ -69,7 +69,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0P-lR-CwP">
-                                <rect key="frame" x="139" y="617" width="96" height="30"/>
+                                <rect key="frame" x="139" y="553" width="96" height="30"/>
                                 <state key="normal" title="Take Payment">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -78,7 +78,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="030-jT-s4h">
-                                <rect key="frame" x="167" y="559" width="40" height="30"/>
+                                <rect key="frame" x="167" y="495" width="40" height="30"/>
                                 <state key="normal" title="Reset">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -92,8 +92,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Vz-mg-CAa">
-                                <rect key="frame" x="174" y="313" width="28" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Vz-mg-CAa">
+                                <rect key="frame" x="157" y="313" width="62" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -115,7 +115,7 @@
                             <constraint firstItem="uvB-E4-Xeb" firstAttribute="leading" secondItem="Pp5-pd-XNs" secondAttribute="leading" id="MzX-sH-68W"/>
                             <constraint firstItem="u1P-aE-PHs" firstAttribute="top" secondItem="FQP-JS-Xx9" secondAttribute="bottom" constant="10" id="RVo-f0-rl5"/>
                             <constraint firstItem="FQP-JS-Xx9" firstAttribute="top" secondItem="TLf-3w-snn" secondAttribute="bottom" constant="20" id="Rd1-6x-JKE"/>
-                            <constraint firstItem="uvB-E4-Xeb" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="W17-Ew-WkF"/>
+                            <constraint firstItem="uvB-E4-Xeb" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="W17-Ew-WkF"/>
                             <constraint firstItem="uvB-E4-Xeb" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="fC7-3C-A89"/>
                             <constraint firstAttribute="centerX" secondItem="vXe-6G-96f" secondAttribute="centerX" constant="-1" id="fwF-Fm-jDl"/>
                             <constraint firstItem="uvB-E4-Xeb" firstAttribute="leading" secondItem="geW-6I-OFa" secondAttribute="leading" id="hao-J2-6Mq"/>
@@ -134,6 +134,8 @@
                             </mask>
                         </variation>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title="Item For Payment" id="AUl-NF-VLH"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="nameTextField" destination="geW-6I-OFa" id="We4-Nv-PdQ"/>
@@ -145,6 +147,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="304.5" y="280.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Og8-3H-Xw3">
+            <objects>
+                <navigationController id="RWc-Oq-Q1Z" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HkR-bW-RxG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="UUI-2N-8xd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="muu-1h-C7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-229.5" y="280.5"/>
         </scene>
     </scenes>
 </document>
