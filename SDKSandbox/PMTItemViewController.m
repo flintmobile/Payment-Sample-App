@@ -6,11 +6,11 @@
 //  Copyright (c) 2015 Flint. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PMTItemViewController.h"
 
 #import <FlintConnectSDK/FlintConnectSDK.h>
 
-@interface ViewController () <FlintTransactionDelegate>
+@interface PMTItemViewController () <FlintTransactionDelegate, UITextFieldDelegate>
 
 @property (strong, nonatomic) NSMutableArray *orderItems;
 @property (weak, nonatomic) IBOutlet UITextField *nameTextField;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation ViewController
+@implementation PMTItemViewController
 
 - (void)viewDidLoad {
   [super viewDidLoad];
@@ -30,6 +30,8 @@
 
 - (IBAction)handleAddItemTapped:(id)sender
 {
+  [self dismissKeyboard];
+  
   FlintOrderItem *orderItem = [FlintOrderItem new];
   orderItem.quantity = @(1);
   orderItem.name = self.nameTextField.text;
@@ -71,6 +73,14 @@
   [self dismissViewControllerAnimated:YES completion:NULL];
 }
 
+#pragma mark - UITextField Delegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+  [textField resignFirstResponder];
+  return YES;
+}
+
 #pragma mark - Private
 
 - (void)refreshTotalLabel
@@ -80,6 +90,15 @@
     total += [[orderItem total] floatValue];
   }
   self.totalLabel.text = [NSString stringWithFormat:@"$%.2f", total];
+}
+
+- (void)dismissKeyboard
+{
+  for (UIView *view in self.view.subviews) {
+    if ([view isKindOfClass:[UITextField class]] && [view isFirstResponder]) {
+      [view resignFirstResponder];
+    }
+  }
 }
 
 @end
