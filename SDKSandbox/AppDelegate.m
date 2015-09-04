@@ -18,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+  /**
+   * Starting Flint Service By Providing the configuration
+   * There are also option to start Flint Service and Authenticate user at a later point in time
+   * Simply not providing the username and passord here and user loginWithUsername:password:completion: method on FlintService
+   */
   [FlintAPIConfig sharedInstance].APIKey = @"4d72de8c70d3ba2e0fef18bd6231bdb7";
   [FlintAPIConfig sharedInstance].environment = EnvironmentStaging;
   [FlintAPIConfig sharedInstance].username = @"test0001@mailinator.com";
@@ -41,6 +46,12 @@
       NSLog(@"Flint Service Error:%@", error);
     }
   }];
+  
+  /**
+   * Providing the mechanism to customize the overall theme for the payment work flow
+   * For individual component customization, use our Default.css in the SDK framework bundle
+   */
+  [FlintCSSEngine setThemeColorWithRed:20 green:255 blue:150 alpha:1.0f];
   
   return YES;
 }
