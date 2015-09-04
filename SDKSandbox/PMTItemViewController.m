@@ -48,6 +48,12 @@
   
   [self dismissKeyboard];
   
+  /*************************************************************************
+   * A FlintOrderItem is the smallest unit of the payment work flow
+   * By default, the item type is OrderItemTypeCustomAmount (addition)
+   * To implement discount, set the item type to OrderItemTypeCustomDiscount (subtraction),
+   * The other item types are for Flint internal usage.
+   **************************************************************************/
   FlintOrderItem *orderItem = [FlintOrderItem new];
   orderItem.quantity = @(1);
   orderItem.name = self.nameTextField.text;
@@ -71,6 +77,13 @@
 - (IBAction)handleTakePaymentTapped:(id)sender
 {
   if (self.total > 0) {
+    /******************************************************************************
+     * FlintUI is the main entrance into the drop-in payment work flow
+     * Configure an array of FlintOrderItem(s) and then
+     * either use the convenient method to start the workflow as a modal view
+     * or use the view controller method to implement your own navigation stack
+     * Implement FlintTransactionDelegate to receive transaction status call back
+     ******************************************************************************/
     [FlintUI takePaymentForOrderItems:self.orderItems fromViewController:self];
   } else {
     [self showAlertMessage:NSLocalizedString(@"Amount to take payment must be greater than 0. Try adding some items", nil)];
