@@ -16,18 +16,7 @@
 		4F8D0EDA1ACF042B004CEBDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D0ED81ACF042B004CEBDF /* Main.storyboard */; };
 		4F8D0EDC1ACF042B004CEBDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D0EDB1ACF042B004CEBDF /* Images.xcassets */; };
 		4F8D0EDF1ACF042B004CEBDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D0EDD1ACF042B004CEBDF /* LaunchScreen.xib */; };
-		4F8D0EEB1ACF042B004CEBDF /* SDKSandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0EEA1ACF042B004CEBDF /* SDKSandboxTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4F8D0EE51ACF042B004CEBDF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4F8D0EC31ACF042B004CEBDF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4F8D0ECA1ACF042B004CEBDF;
-			remoteInfo = SDKSandbox;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4F5EB98F1B98F7A900B4C76E /* Embed Frameworks */ = {
@@ -57,7 +46,6 @@
 		4F8D0ED91ACF042B004CEBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F8D0EDB1ACF042B004CEBDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F8D0EDE1ACF042B004CEBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4F8D0EE41ACF042B004CEBDF /* PaymentSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8D0EE91ACF042B004CEBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F8D0EEA1ACF042B004CEBDF /* SDKSandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKSandboxTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,13 +56,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F5EB98D1B98F7A900B4C76E /* FlintConnectSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F8D0EE11ACF042B004CEBDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				4F8D0ECB1ACF042B004CEBDF /* PaymentSampleApp.app */,
-				4F8D0EE41ACF042B004CEBDF /* PaymentSampleAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,24 +152,6 @@
 			productReference = 4F8D0ECB1ACF042B004CEBDF /* PaymentSampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4F8D0EE31ACF042B004CEBDF /* PaymentSampleAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F8D0EF11ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "PaymentSampleAppTests" */;
-			buildPhases = (
-				4F8D0EE01ACF042B004CEBDF /* Sources */,
-				4F8D0EE11ACF042B004CEBDF /* Frameworks */,
-				4F8D0EE21ACF042B004CEBDF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4F8D0EE61ACF042B004CEBDF /* PBXTargetDependency */,
-			);
-			name = PaymentSampleAppTests;
-			productName = SDKSandboxTests;
-			productReference = 4F8D0EE41ACF042B004CEBDF /* PaymentSampleAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,10 +163,6 @@
 				TargetAttributes = {
 					4F8D0ECA1ACF042B004CEBDF = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					4F8D0EE31ACF042B004CEBDF = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 4F8D0ECA1ACF042B004CEBDF;
 					};
 				};
 			};
@@ -222,7 +180,6 @@
 			projectRoot = "";
 			targets = (
 				4F8D0ECA1ACF042B004CEBDF /* PaymentSampleApp */,
-				4F8D0EE31ACF042B004CEBDF /* PaymentSampleAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,13 +192,6 @@
 				4F8D0EDA1ACF042B004CEBDF /* Main.storyboard in Resources */,
 				4F8D0EDF1ACF042B004CEBDF /* LaunchScreen.xib in Resources */,
 				4F8D0EDC1ACF042B004CEBDF /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4F8D0EE21ACF042B004CEBDF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,23 +209,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F8D0EE01ACF042B004CEBDF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F8D0EEB1ACF042B004CEBDF /* SDKSandboxTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4F8D0EE61ACF042B004CEBDF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4F8D0ECA1ACF042B004CEBDF /* PaymentSampleApp */;
-			targetProxy = 4F8D0EE51ACF042B004CEBDF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4F8D0ED81ACF042B004CEBDF /* Main.storyboard */ = {
@@ -382,7 +316,7 @@
 					"$(PROJECT_DIR)",
 					/Users/pc/Desktop,
 				);
-				INFOPLIST_FILE = SDKSandbox/Info.plist;
+				INFOPLIST_FILE = PaymentSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = PaymentSampleApp;
 			};
@@ -397,43 +331,9 @@
 					"$(PROJECT_DIR)",
 					/Users/pc/Desktop,
 				);
-				INFOPLIST_FILE = SDKSandbox/Info.plist;
+				INFOPLIST_FILE = PaymentSampleApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = PaymentSampleApp;
-			};
-			name = Release;
-		};
-		4F8D0EF21ACF042B004CEBDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SDKSandboxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = PaymentSampleAppTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDKSandbox.app/SDKSandbox";
-			};
-			name = Debug;
-		};
-		4F8D0EF31ACF042B004CEBDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SDKSandboxTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = PaymentSampleAppTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDKSandbox.app/SDKSandbox";
 			};
 			name = Release;
 		};
@@ -454,15 +354,6 @@
 			buildConfigurations = (
 				4F8D0EEF1ACF042B004CEBDF /* Debug */,
 				4F8D0EF01ACF042B004CEBDF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4F8D0EF11ACF042B004CEBDF /* Build configuration list for PBXNativeTarget "PaymentSampleAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4F8D0EF21ACF042B004CEBDF /* Debug */,
-				4F8D0EF31ACF042B004CEBDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
