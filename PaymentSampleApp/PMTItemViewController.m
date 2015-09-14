@@ -115,18 +115,6 @@
   return YES;
 }
 
-#pragma mark - Alert View
-
-- (void)showAlertMessage:(NSString *)message
-{
-  UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Error", nil)
-                                                                           message:message
-                                                                    preferredStyle:UIAlertControllerStyleAlert];
-  UIAlertAction *okAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Ok", nil) style:UIAlertActionStyleCancel handler:NULL];
-  [alertController addAction:okAction];
-  [self presentViewController:alertController animated:YES completion:NULL];
-}
-
 #pragma mark - Private
 
 - (void)refreshTotalLabel
@@ -146,6 +134,16 @@
       [view resignFirstResponder];
     }
   }
+}
+
+- (void)showAlertMessage:(NSString *)message
+{
+  UIAlertController *alertController = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Error", nil)
+                                                                           message:message
+                                                                    preferredStyle:UIAlertControllerStyleAlert];
+  UIAlertAction *okAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"Ok", nil) style:UIAlertActionStyleCancel handler:NULL];
+  [alertController addAction:okAction];
+  [self presentViewController:alertController animated:YES completion:NULL];
 }
 
 + (NSNumberFormatter *)numberFormatter
