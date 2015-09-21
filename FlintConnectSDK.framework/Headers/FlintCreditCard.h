@@ -1,5 +1,5 @@
 //
-//  FlintChargeCard.h
+/*! @file FlintCreditCard.h */
 //  FlintConnect
 //
 //  Created by Nidhi Jain on 5/4/15.

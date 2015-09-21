@@ -1,5 +1,5 @@
 //
-//  FlintCardScannerView.h
+/*! @file FlintCardScannerView.h */
 //  FlintConnect
 //
 //  Created by PC on 4/20/15.
@@ -9,80 +9,81 @@
 #import <UIKit/UIKit.h>
 #import "FlintCardScanner.h"
 
-@class FlintCardScannerView;
-
-@protocol FlintCardScannerViewDelegate <NSObject>
-
-@optional
-/**
- *  Give the hook for when the back button is Tapped
- */
-- (void)cardScannerViewBackButtonTapped:(FlintCardScannerView *)cardScannerView;
-
-/**
- *  Give the hook for when the done button is tapped wiht or without the image captured
- */
-- (void)cardScannerView:(FlintCardScannerView *)cardScannerView useImage:(UIImage *)image;
-
-@end
+@protocol FlintCardScannerViewDelegate;
 
 IB_DESIGNABLE
 
+/*!
+ *  @class FlintCardScannerView
+ *  
+ *  @brief A prebuilt UI component to scan credit card.
+ *
+ *  @discussion This also include other configurations such as toggle torch, manual/auto scan, ...
+ */
 @interface FlintCardScannerView : UIView
 
+/*!
+ *  @brief The view delegate
+ */
 @property (weak, nonatomic) IBOutlet id<FlintCardScannerViewDelegate>delegate;
 
-/**
- *  Convenient pipe-through method to set the scanner settings
- *  For individual setting modification, access the imageStablizer or the cardScanner directly
+/*!
+ *  @brief Applying the settings for the scanner.
  *
- *  @param scannerSettings the scanner settings
+ *  @discussion Convenient pipe-through method to set the scanner settings. For individual setting modification, access the imageStablizer or the cardScanner directly.
+ *
+ *  @param scannerSettings The new scanner settings
  */
 - (void)applyScannerSettings:(FlintScannerSettings *)scannerSettings;
 
-/**
- *  Convenient pipe-through method to retrieve the scanner settings
- *  To access each setting individually, use the imageStabilizer or the cardScanner accessor directly
+/*!
+ *  @brief Retrieve the current settings of the scanner.
  *
- *  @return the scanner settings
+ *  @discussion Convenient pipe-through method to retrieve the scanner settings. To access each setting individually, use the imageStabilizer or the cardScanner accessor directly. Typically you would call this to retrieve the current settings, modify it and call applyScannerSettings: to apply changes.
+ *
+ *  @return The scanner settings
  */
 - (FlintScannerSettings *)currentScannerSettings;
 
 #pragma mark - IBInspectable
 
-/**
- *  Color use for text, title, etc..
- *  Default to white
+/*!
+ *  @brief Color use for text, title, etc..
+ *
+ *  @default White
  */
 @property (strong, nonatomic) IBInspectable UIColor *textColor;
 
-/**
- *  color use for button title, button background, etc..
- *  Default to SDK Theme color
+/*!
+ *  @brief Main color scheme.
+ *
+ *  @default SDK theme color
  */
 @property (strong, nonatomic) IBInspectable UIColor *color;
 
-/**
- *  Font name for texts & titles on this view
- *  Default to be SDK font name
+/*!
+ *  @brief Font name for text elements on the view.
+ *
+ *  @dicussion If you are using custom font, please make sure to follow the steps in one of these blogs\n
+ *  http://www.neevtech.com/blog/2013/11/22/how-to-add-custom-font-to-your-ios-based-app/.
+ *
+ *  @default SDK theme font name
  */
 @property (copy, nonatomic) IBInspectable NSString *fontName;
 
-/**
- *  Font name for buttons on this view
- *  Default to be SDK bold font name
+/*!
+ *  @brief Bold font name for text elements on the view where applicable.
+ *
+ *  @default SDK bold theme font name
  */
 @property (copy, nonatomic) IBInspectable NSString *boldFontName;
 
 @end
 
+
+
 @interface FlintCardScannerView (UIAccessors)
 
-/**
- *  The card scanner of the view
- *  Calling startScanningSession: on this card scanner after applySettings: to start the scanning
- *  Calling stopScanningSession on this card scanner to stop the scanning
- */
 @property (strong, nonatomic, readonly) FlintCardScanner *cardScanner;
 
 @property (strong, nonatomic, readonly) UIButton *backButton;
@@ -96,5 +97,29 @@ IB_DESIGNABLE
 @property (strong, nonatomic, readonly) UIButton *doneButton;
 @property (strong, nonatomic, readonly) UIButton *scanButton;
 @property (strong, nonatomic, readonly) UIButton *manualButton;
+
+@end
+
+
+
+/*!
+ *  @protocol FlintCardScannerViewDelegate
+ *
+ *  @brief Delegate methods for card scanner view.
+ */
+@protocol FlintCardScannerViewDelegate <NSObject>
+
+@optional
+/*!
+ *  @brief Give the hook for when the back button is tapped.
+ */
+- (void)cardScannerViewBackButtonTapped:(FlintCardScannerView *)cardScannerView;
+
+/*!
+ *  @brief Give the hook for when the done button is tapped with or without the image scanned.
+ *  
+ *  @discussion Image will be nil if the user tap the done button without scanning.
+ */
+- (void)cardScannerView:(FlintCardScannerView *)cardScannerView useImage:(UIImage *)image;
 
 @end

@@ -1,5 +1,5 @@
 //
-//  FlintOrderItem.h
+/*! @file FlintOrderItem.h */
 //  FlintConnect
 //
 //  Created by PC Nguyen on 7/13/15.

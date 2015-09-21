@@ -1,5 +1,5 @@
 //
-//  FlintCardScanner.h
+/*! @file FlintCardScanner.h */
 //  FlintConnect
 //
 //  Created by PC on 4/16/15.

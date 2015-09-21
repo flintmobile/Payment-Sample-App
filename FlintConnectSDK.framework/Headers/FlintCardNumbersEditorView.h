@@ -1,5 +1,5 @@
 //
-//  FlintCardNumbersEditorView.h
+/*! @file FlintCardNumbersEditorView.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 5/6/15.

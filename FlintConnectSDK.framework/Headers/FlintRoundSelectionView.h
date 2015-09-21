@@ -1,5 +1,5 @@
 //
-//  FlintRoundSelectionView.h
+/*! @file FlintRoundSelectionView.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 6/18/15.

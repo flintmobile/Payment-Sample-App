@@ -1,5 +1,5 @@
 //
-//  FlintPhoneEntryView.h
+/*! @file FlintPhoneEntryView.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 8/14/15.

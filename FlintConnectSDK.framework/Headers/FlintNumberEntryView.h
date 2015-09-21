@@ -1,5 +1,5 @@
 //
-//  FlintNumberEntryView.h
+/*! @file FlintNumberEntryView.h */
 //  FlintConnect
 //
 //  Created by PC on 4/9/15.

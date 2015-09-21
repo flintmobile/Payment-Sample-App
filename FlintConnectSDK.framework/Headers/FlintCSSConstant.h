@@ -1,5 +1,5 @@
 //
-//  FlintCSSConstant.h
+/*! @file FlintCSSConstant.h */
 //  FlintConnect
 //
 //  Created by PC on 3/6/15.

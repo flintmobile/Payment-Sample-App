@@ -1,5 +1,5 @@
 //
-//  FlintInvoice.h
+/*! @file FlintInvoice.h */
 //  FlintConnect
 //
 //  Created by Nidhi Jain on 7/9/15.

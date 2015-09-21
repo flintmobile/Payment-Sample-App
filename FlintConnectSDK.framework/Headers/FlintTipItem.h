@@ -1,5 +1,5 @@
 //
-//  FlintTipItem.h
+/*! @file FlintTipItem.h */
 //  FlintConnect
 //
 //  Created by PC on 4/10/15.

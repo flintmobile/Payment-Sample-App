@@ -1,5 +1,5 @@
 //
-//  FlintToggleTextField.h
+/*! @file FlintActionTextField.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 6/24/15.
@@ -57,7 +57,7 @@ IB_DESIGNABLE
 
 @end
 
-@interface FlintActionTextField (UIAccesors)
+@interface FlintActionTextField (UIAccessors)
 
 @property (strong, nonatomic, readonly) UIButton *actionButton;
 

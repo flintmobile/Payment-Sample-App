@@ -1,5 +1,5 @@
 //
-//  FlintTipSelectionView.h
+/*! @file FlintTipSelectionView.h */
 //  FlintConnect
 //
 //  Created by PC on 4/10/15.

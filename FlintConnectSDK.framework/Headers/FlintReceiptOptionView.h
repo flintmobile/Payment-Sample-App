@@ -1,5 +1,5 @@
 //
-//  FlintReceiptOptionView.h
+/*! @file FlintReceiptOptionView.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 6/24/15.
@@ -11,19 +11,25 @@
 
 IB_DESIGNABLE
 
+/*!
+ *  @class FlintReceiptOptionView
+ *
+ *  @brief A prebuilt UI component to send sms and email receipt.
+ */
 @interface FlintReceiptOptionView : UIView <FlintActionTextFieldDelegate, UITextFieldDelegate>
 
 #pragma mark - IBInspectable
 
-/**
- *  The height for the text fields
- *  Default to be 50
+/*!
+ *  @brief The height for the text fields.
+ *
+ *  @default 50
  */
 @property (assign, nonatomic) IBInspectable CGFloat textFieldHeight;
 
 @end
 
-@interface FlintReceiptOptionView (UIAccesors)
+@interface FlintReceiptOptionView (UIAccessors)
 
 @property (strong, nonatomic, readonly) UIImageView *emailIconView;
 @property (strong, nonatomic, readonly) FlintActionTextField *emailTextField;

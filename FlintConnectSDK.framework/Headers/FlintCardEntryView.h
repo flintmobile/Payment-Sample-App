@@ -1,5 +1,5 @@
 //
-//  FlintCardEntryView.h
+/*! @file FlintCardEntryView.h */
 //  FlintConnect
 //
 //  Created by PC on 4/10/15.
@@ -8,87 +8,120 @@
 
 #import <UIKit/UIKit.h>
 
-@class FlintTextField;
-@class FlintCardNumberEntryView;
-@class FlintDateEntryView;
-@class FlintNumberEntryView;
-@class FlintCardEntryView;
+#import "FlintCardNumberEntryView.h"
+#import "FlintDateEntryView.h"
+#import "FlintNumberEntryView.h"
 
-@protocol FlintCardEntryViewDelegate <NSObject>
-
-@optional
-- (void)cardEntryView:(FlintCardEntryView *)cardEntryView completeEntryForTextField:(FlintTextField *)textField;
-
-@end
+@protocol FlintCardEntryViewDelegate;
 
 IB_DESIGNABLE
 
+/*!
+ *  @class FlintCardEntryView
+ *  
+ *  @brief A prebuilt UI component to enter credit card information. Renderable on Interface Builder.
+ */
 @interface FlintCardEntryView : UIView
 
+/*!
+ *  @brief The view delegate.
+ */
 @property (weak, nonatomic) IBOutlet id<FlintCardEntryViewDelegate>delegate;
 
 #pragma mark - IBInspectable
 
-/**
- *  The font for both the text and place holder of the textfield entries
- *  This font also apply for the validation label
- *  Default to be SDK font name
- *  If you are using custom font, please make sure to follow the steps in one of these blogs
- *  http://www.neevtech.com/blog/2013/11/22/how-to-add-custom-font-to-your-ios-based-app/
+/*!
+ *  @brief Font name for text elements on the view
+ *
+ *  @dicussion If you are using custom font, please make sure to follow the steps in one of these blogs\n
+ *  http://www.neevtech.com/blog/2013/11/22/how-to-add-custom-font-to-your-ios-based-app/.
+ *
+ *  @default SDK theme font name
  */
 @property (strong, nonatomic) IBInspectable NSString *fontName;
 
-/**
- *  The font size for both the text and place holder of the texfield entries
- *  Default to be 16
+/*!
+ *  @brief The font size for both the text and place holder of the texfield entries.
+ *
+ *  @default 16
  */
 @property (assign, nonatomic) IBInspectable CGFloat fontSize;
 
-/**
- *  The font size for the validation label
- *  Default to be 12
+/*!
+ *  @brief The font size for the validation error label.
+ *
+ *  @default 12
  */
 @property (assign, nonatomic) IBInspectable CGFloat errorFontSize;
 
-/**
- *  The text to be displayed when validation failed
- *  Default to be @"Invalid Card Number"
+/*!
+ *  @brief The text to be displayed when validation failed.
+ *
+ *  @default "Invalid Card Number"
  */
 @property (copy, nonatomic) IBInspectable NSString *errorText;
 
-/**
- *  Foreground color apply for all text field text
- *  Default to be black color
+/*!
+ *  @brief Text fields color.
+ *
+ *  @default Black
  */
-@property (strong, nonatomic) IBInspectable UIColor *foregroundColor;
+@property (strong, nonatomic) IBInspectable UIColor *textColor;
 
-/**
- *  Miscellaneous color apply for place holder, underline color,...
- *  To customize different color, access each component via accessors
- *  Default to be light gray color
+/*!
+ *  @brief Place holder color, underline color,...
+ *  
+ *  @discussion To customize different color, access each component via UIAccessors category
+ *
+ *  @default Light Gray
  */
-@property (strong, nonatomic) IBInspectable UIColor *miscColor;
+@property (strong, nonatomic) IBInspectable UIColor *subColor;
 
-/**
- *  Error color apply for textfield validation color & validation label
- *  Default to be red color
+/*!
+ *  @brief Validation error color.
+ *
+ *  @default Red
  */
 @property (strong, nonatomic) IBInspectable UIColor *errorColor;
 
-/**
- *  The fix height apply for all text field. 
- *  Setting this with value higher than 0 disable dynamic vertical scaling
- *  Default to 0 for dynamic scaling
+/*!
+ *  @brief The fix height apply for all text field.
+ *
+ *  @discussion Setting this with value higher than 0 disable dynamic vertical scaling
+ *  
+ *  @default 0
  */
-@property (assign, nonatomic) IBInspectable CGFloat textfieldHeight;
+@property (assign, nonatomic) IBInspectable CGFloat textFieldHeight;
 
 @end
+
+
 
 @interface FlintCardEntryView (UIAccessors)
 
 @property (strong, nonatomic, readonly) FlintCardNumberEntryView *cardNumberView;
 @property (strong, nonatomic, readonly) FlintDateEntryView *expirationDateView;
 @property (strong, nonatomic, readonly) FlintNumberEntryView *cvvView;
-@property (strong, nonatomic, readonly) FlintNumberEntryView *zipcodeView;
+@property (strong, nonatomic, readonly) FlintNumberEntryView *zipCodeView;
+
+@end
+
+
+
+/*!
+ *  @protocol FlintCardEntryViewDelegate
+ *
+ *  @brief Delegate methods for card entry view.
+ */
+@protocol FlintCardEntryViewDelegate <NSObject>
+
+@optional
+/*!
+ *  @brief Delegate fire this method when a text field on this view completing getting entry input.
+ *
+ *  @param cardEntryView The card entry view
+ *  @param textField     The text field that has completed entry
+ */
+- (void)cardEntryView:(FlintCardEntryView *)cardEntryView completeEntryForTextField:(FlintTextField *)textField;
 
 @end

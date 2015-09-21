@@ -1,5 +1,5 @@
 //
-//  FlintMerchant.h
+/*! @file FlintMerchant.h */
 //  FlintConnect
 //
 //  Created by PC on 3/30/15.

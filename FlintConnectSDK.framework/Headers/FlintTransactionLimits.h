@@ -1,5 +1,5 @@
 //
-//  FlintTransactionLimits.h
+/*! @file FlintTransactionLimits.h */
 //  FlintConnect
 //
 //  Created by Nidhi Jain on 5/8/15.

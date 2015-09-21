@@ -1,5 +1,5 @@
 //
-//  FlintEmailEntryView.h
+/*! @file FlintEmailEntryView.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 8/14/15.

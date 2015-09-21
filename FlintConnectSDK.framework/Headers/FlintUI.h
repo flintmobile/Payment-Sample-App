@@ -1,5 +1,5 @@
 //
-//  FlintUI.h
+/*! @file FlintUI.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 7/10/15.

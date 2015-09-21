@@ -1,5 +1,5 @@
 //
-//  FlintScannedCard.h
+/*! @file FlintScanResult.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 5/13/15.

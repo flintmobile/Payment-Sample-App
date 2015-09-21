@@ -1,5 +1,5 @@
 //
-//  FlintTextField.h
+/*! @file FlintTextField.h */
 //  FlintConnect
 //
 //  Created by PC on 4/7/15.
@@ -9,91 +9,115 @@
 #import <UIKit/UIKit.h>
 
 @class FlintTextField;
+@protocol FlintTextFieldValidation;
 
-typedef NS_ENUM(NSInteger, FlintTextFieldState) {
-  TextFieldStateValid,
-  TextFieldStateInvalid,
+/*!
+ *  @enum FlintTextFieldState
+ *
+ *  @brief The validation state for text field.
+ */
+typedef NS_ENUM(NSInteger, FlintTextFieldState){
+  TextFieldStateValid,      /*!< Valid Validation */
+  TextFieldStateInvalid,    /*!< Invalid Validation */
 };
 
+/*!
+ *  @enum FlintTextFieldValidationMode
+ *
+ *  @brief The validation mode for text field.
+ *
+ *  @discussion The validation mode will be reflected on the text return by the delegate call back.
+ */
 typedef NS_ENUM(NSInteger, FlintTextFieldValidationMode) {
-  TextFieldValidationRaw,
-  TextFieldValidationWithMask
+  TextFieldValidationRaw,         /*!< The result come back is raw text */
+  TextFieldValidationWithMask     /*!< The result come back is with mask */
 };
 
+/*!
+ *  @brief Define the format for text field based on different state.
+ *
+ *  @param textField       The text field
+ *  @param validationState The validation state
+ */
 typedef void(^FlintTextFieldFormatHandler)(FlintTextField *textField, FlintTextFieldState validationState);
+
+/*!
+ *  @brief Define the call back after validation.
+ *
+ *  @param validationState The validation state
+ */
 typedef void(^FlintTextFieldValidationHandler)(FlintTextFieldState validationState);
 
-@protocol FlintTextFieldValidation <NSObject>
 
-/**
- *  Validating the text
+
+/*!
+ *  @class FlintTextField
  *
- *  @param textField            the text field
- *  @param text                 depend on validationMode that this supply rawText or maskedText
- *  @param validationCompletion call this when validation complete
+ *  @brief A text field with the option to mask format and validation.
  */
-@optional
-- (void)textField:(FlintTextField *)textField validateText:(NSString *)text completion:(FlintTextFieldValidationHandler)validationCompletion;
-
-@end
-
 @interface FlintTextField : UITextField
 
-/**
- *  The masking value, e.g. @"(###)###-####"
+/*!
+ *  @brief The masking value, e.g. @"(###)###-####".
  */
 @property (copy, nonatomic) NSString *mask;
 
-/**
- *  The raw / non-mask text value
+/*!
+ *  @brief The raw / non-mask text value.
  */
 @property (copy, nonatomic, readonly) NSString *rawText;
 
-/**
- *  Specify which value to hand to the validator for validating
- *  Default to be TextFieldValidationRaw
+/*!
+ *  @brief Specify which value to hand to the validator for validating.
+ *
+ *  @default TextFieldValidationRaw
  */
 @property (assign, nonatomic) FlintTextFieldValidationMode validationMode;
 
-/**
- *  Specify the validation rule for the text field
+/*!
+ *  @brief Specify the validation rule for the text field.
  */
 @property (weak, nonatomic) id<FlintTextFieldValidation>validator;
 
-/**
- *  Different states of the text field
- *  Initial to be TextFieldStateValid
+/*!
+ *  @brief Different states of the text field.
+ *
+ *  @default TextFieldStateValid
  */
 @property (assign, nonatomic) FlintTextFieldState validationState;
 
-/**
- *  Formatting the textfield look and feel for different states
+/*!
+ *  @brief Formatting the textfield look and feel for different states.
  */
 @property (copy, readwrite) FlintTextFieldFormatHandler formatHandler;
 
-/**
- *  Secure the maskable value with dot and keep format of the mask
- *  e.g. oo/oo/oooo for securing date
- *  Default to be NO
+/*!
+ *  @brief Secure the maskable value with dot and keep format of the mask. e.g. oo/oo/oooo for securing date.
+ *
+ *  @default NO
  */
 @property (assign, nonatomic) BOOL shouldSecureMaskText;
 
-/**
- *  Specify how much of the string we want to mask. 
- *  0 mean mask everything if shouldSecureMaskText set to YES
- *  Default to be 0
+/*!
+ *  @brief the length to secure text.
+ *
+ *  @discussion Specify how much of the string we want to mask. 0 mean mask everything if shouldSecureMaskText set to YES.
+ *
+ *  @default 0
  */
 @property (assign, nonatomic) NSInteger secureMaskLength;
 
-/**
- *  Set the text programatically with masking apply
+/*!
+ *  @brief Set the text programatically with masking apply.
  *
  *  @param text the raw text
  */
 - (void)applyMaskOnText:(NSString *)text;
 
-/**
- *  return YES if validation state valid and text field length > 0
+/*!
+ *  @brief Check validation status.
+ *
+ *  @discussion Return YES if validation state valid and text field length > 0.
  *
  *  @return NO otherwise
  */
@@ -101,9 +125,10 @@ typedef void(^FlintTextFieldValidationHandler)(FlintTextFieldState validationSta
 
 #pragma mark - Delegate Pipe
 
-/**
- *  In order for validation to work, text field delegate MUST call this method in 
- *  textField:shouldChangeCharactersInRange:replacementString:
+/*!
+ *  @brief Pipe-through delegate for validation.
+ *
+ *  @discussion In order for validation to work, text field delegate MUST call this method in textField:shouldChangeCharactersInRange:replacementString:
  *
  *  @param range  the range from the delegate
  *  @param string the string from the delegate
@@ -111,5 +136,25 @@ typedef void(^FlintTextFieldValidationHandler)(FlintTextFieldState validationSta
  *  @return YES to receive input, NO to stop
  */
 - (BOOL)shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
+
+@end
+
+
+/*!
+ *  @protocol FlintTextFieldValidation
+ *
+ *  @brief Validating Protocol
+ */
+@protocol FlintTextFieldValidation <NSObject>
+
+@optional
+/*!
+ *  @brief Validating the text.
+ *
+ *  @param textField            the text field
+ *  @param text                 depend on validationMode that this supply rawText or maskedText
+ *  @param validationCompletion call this when validation complete
+ */
+- (void)textField:(FlintTextField *)textField validateText:(NSString *)text completion:(FlintTextFieldValidationHandler)validationCompletion;
 
 @end

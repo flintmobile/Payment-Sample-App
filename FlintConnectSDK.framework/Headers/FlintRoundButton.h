@@ -1,5 +1,5 @@
 //
-//  FlintRoundButton.h
+/*! @file FlintRoundButton.h */
 //  FlintConnect
 //
 //  Created by PC on 4/11/15.

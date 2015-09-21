@@ -1,5 +1,5 @@
 //
-//  FlintSignatureView.h
+/*! @file FlintSignatureView.h */
 //  FlintConnect
 //
 //  Created by PC on 5/1/15.

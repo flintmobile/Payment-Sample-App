@@ -4,9 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AmexLogo@2x.png</key>
+		<data>
+		FQJAgbeYva25YzeRQOTCB1OX9ag=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		dKDm0XHsT46zGwOGYB/CKlgQW28=
+		mPv2VKZdlAQkZktTTOZJrPgbnB0=
+		</data>
+		<key>Backspace@2x.png</key>
+		<data>
+		2V7a5FMpnaKpOjnHLn8+/ZOyfvg=
 		</data>
 		<key>CancelCross@2x.png</key>
 		<data>
@@ -52,157 +60,161 @@
 		<data>
 		uyegHOaRc81rGdhWdnAK9TS4jfU=
 		</data>
+		<key>DiscoverLogo@2x.png</key>
+		<data>
+		jQJ7+a9WHXZt4Nhx6gTH/y1sNAo=
+		</data>
 		<key>EmailIcon@2x.png</key>
 		<data>
 		83V5BgCwLI2vGfTIs5E/ftzm7lo=
 		</data>
-		<key>EmailSentIcon@2x.png</key>
+		<key>EmailIconWhite@2x.png</key>
 		<data>
-		jxS5JRDac55t9Hceo8rSeeCrENU=
+		0Wj7RS61rjvcVVKrja3LSllfEjM=
 		</data>
 		<key>FlintPayment.storyboardc/I0h-on-J3k-view-IoG-cq-T6e.nib</key>
 		<data>
-		piU5N8g5LEnSb1l8W0qPq52ENak=
+		xXNV4yPW8TDSVDc0tcOUC0bPG6k=
 		</data>
 		<key>FlintPayment.storyboardc/Info.plist</key>
 		<data>
-		vJrIPlMuwMkkKxNEMpEAP4WgGWE=
+		HZLUGZwLCbLAp6Sv1cMmIoexXpA=
 		</data>
 		<key>FlintPayment.storyboardc/LPc-FZ-Xuo-view-BPx-WV-6tl.nib</key>
 		<data>
-		w6cgaoHyUXAX8pG4dUkONRoLiqA=
+		Gt44Tr9rolEVpv/DXDO4KclGn98=
 		</data>
 		<key>FlintPayment.storyboardc/LimitExceedVC.nib</key>
 		<data>
-		l6yYzu1X76RLNlmNjoq4UA+IISw=
+		21KF8J5hpEFRIO/Q4EYHRKUX6Ho=
 		</data>
 		<key>FlintPayment.storyboardc/Q2f-nw-iw2-view-OTc-AJ-dn0.nib</key>
 		<data>
-		9/5Lfq7up9WTaWe8cgVmmB84ECI=
+		Q7VkYfLb5vYK1KbKhnSrQUmHQg0=
 		</data>
 		<key>FlintPayment.storyboardc/Tik-7Z-qoF-view-aWI-jM-l1E.nib</key>
 		<data>
-		mfc5h7xnCyIQ0RcfPM5htIFAf+4=
+		QybQ4a00qiJqHjrFAsNqBOlORqk=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-I0h-on-J3k.nib</key>
 		<data>
-		tLYx9DypGg8C9LmHGYBIHCl9djY=
+		2e0HOS5jaGFnVIApObeDvsFVSZw=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-Q2f-nw-iw2.nib</key>
 		<data>
-		CEIp7naX4xXm0P7tEbV7u8u1uzQ=
+		cUXHymS2ja6iNwHYDPzBSepveEY=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-Tik-7Z-qoF.nib</key>
 		<data>
-		8CiaWVjou9y34efOwItW6nZ/7Tg=
+		6FxJGGZswGH+FSd0WDyoR5DUpYc=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-V28-iZ-Tqs.nib</key>
 		<data>
-		xElmwX/UvjSXINda5w6U6k1dvw8=
+		ibq247qXceLp/C4pn9FtKiAI8sU=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-Ywi-XC-OVS.nib</key>
 		<data>
-		5Q2UkQpReK+y3gR5ZZD+ELi6YZI=
+		tcXOcdzKW+/oPR6ao7d3aMGFFr0=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-jpK-Vd-0ju.nib</key>
 		<data>
-		Tv9bsES4Xj//5r0DRZn6/GtfoUE=
+		Ftn42euziMFay5lxXk/pqikM0e4=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-mSs-gd-f2w.nib</key>
 		<data>
-		1+xzEskKQH/E99KcETs4LcwzoQA=
+		MWgeGd+8XvWTH7n3mcW7K8BMWeo=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-wEr-nO-Hag.nib</key>
 		<data>
-		l3jtku+K2rmx807/X5lPHLLnIv0=
+		qPTX1lJhOYRH12jLwvPDCRg5rKA=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-wjn-4G-Ccv.nib</key>
 		<data>
-		f/TJGZBHPumNP4Tv528bWgnACwk=
+		xKh6DCizqr1Mq6ZzircbsLg3Sq8=
 		</data>
 		<key>FlintPayment.storyboardc/V28-iZ-Tqs-view-dEz-MH-Xf3.nib</key>
 		<data>
-		xTu7jwGju3G4sFGereDHBcwW+d0=
+		ARi6IvaYHVvKwcstlCbk3wAqxL8=
 		</data>
 		<key>FlintPayment.storyboardc/Ywi-XC-OVS-view-x8a-ft-Y0p.nib</key>
 		<data>
-		w59tW27lQPJBSnV2mBHixeooXYU=
+		yyYkmFvgtM/J0hIMoJ6x+jbFIZY=
 		</data>
 		<key>FlintPayment.storyboardc/aPY-B3-utf-view-3mq-kC-OtV.nib</key>
 		<data>
-		dp6rZVJveojsXmENUKNFkJVxMBc=
+		lzmIopTq6+BFj+1vnLMEcLz5+d8=
 		</data>
 		<key>FlintPayment.storyboardc/jpK-Vd-0ju-view-aZr-QN-LaC.nib</key>
 		<data>
-		afPCmWm4seacHc3BbKGTw8OfQDE=
+		tfqiYbf8qO2ALyK4NWfY6PvC+UQ=
 		</data>
 		<key>FlintPayment.storyboardc/mSs-gd-f2w-view-x50-MT-gf1.nib</key>
 		<data>
-		GOoH4hYTC1K6QuAbVHf9RVr7HEk=
+		kwhLaE1Zv6A3zbzcDkQcJ1YZbCc=
 		</data>
 		<key>FlintPayment.storyboardc/wjn-4G-Ccv-view-f94-JL-EuT.nib</key>
 		<data>
-		YNz9jsXnSChS7k9yR2oYQYRDXk8=
+		FvKeNSHerE/A3uLjmNHVNP+pJ8c=
 		</data>
 		<key>Headers/FlintAPIConfig.h</key>
 		<data>
-		E/A7dBTTQQCjRy70t2WotiLelys=
+		lpK3wemEApiMBGL9vViltDE4Rbk=
 		</data>
 		<key>Headers/FlintAccount.h</key>
 		<data>
-		lSuxKkSo0iytdqcEDb/7jjwKZ3Y=
+		FgUGvzOB3os+1vOZ93b5pVJl1Hk=
 		</data>
 		<key>Headers/FlintActionTextField.h</key>
 		<data>
-		7l3NAyeuc23ltP52tW4A3fg8nqU=
+		5VbMgtBhddlmOATroiUuX9ACciw=
 		</data>
 		<key>Headers/FlintAddress.h</key>
 		<data>
-		1g38bqnJ7xZYrB7PwDmRvbGTNHU=
+		FtnsTpjXTQuEhC/OTBp24ECpyoI=
 		</data>
 		<key>Headers/FlintCSSConstant.h</key>
 		<data>
-		O+NMzUC7TKKntFiltoRz7Fz1I24=
+		5RwGrkqj/wF/eErDvr9Xw3vHBlE=
 		</data>
 		<key>Headers/FlintCSSEngine.h</key>
 		<data>
-		KMTanYwCiyEff6xV9Qy+Ui9bljQ=
+		Pxo168i2VQMBmSElXwjWcfxZInU=
 		</data>
 		<key>Headers/FlintCardDetailView.h</key>
 		<data>
-		XqeLMn3S1TYMvDHz1ucbvha6+z4=
+		h3l8ln24cDEaUsJ8PVIu0eNiSec=
 		</data>
 		<key>Headers/FlintCardEntryView.h</key>
 		<data>
-		qMkBbrWRYwLzOD/mL9l6h5Yg5Rs=
+		K4Pjud6mdd0I5P04hFUt+AhvHwY=
 		</data>
 		<key>Headers/FlintCardNumberEntryView.h</key>
 		<data>
-		UAixcr4f4d3e/G+MaGPLVY4rxLg=
+		Y8vNniswFIjmoMznOvcBUzi8Hss=
 		</data>
 		<key>Headers/FlintCardNumbersEditorView.h</key>
 		<data>
-		HYgRBjmvq5mKCWRIA1c3mKDdDMw=
+		0BW9ZbPjoJCLkfD0Qs4M1dlhLEA=
 		</data>
 		<key>Headers/FlintCardScanner.h</key>
 		<data>
-		RjjmAgVGCkpurHWgOoOdHQkOHcw=
+		7P3uDXwYktDrGcLWPzWXwKEAUWQ=
 		</data>
 		<key>Headers/FlintCardScannerView.h</key>
 		<data>
-		uZWLVAGR3S+pmB/taIOdfM0lK20=
+		vZvpRhs21xAAkGGZ9H41IiwSudI=
 		</data>
 		<key>Headers/FlintCardSigningView.h</key>
 		<data>
-		bfIBwOLhbgU37Mj0HnVd1r0KrB0=
+		r9bwhI3Qzdpe2HCUr+uLGgLPJJE=
 		</data>
 		<key>Headers/FlintCardValidationView.h</key>
 		<data>
-		16E7vR+LlFzFR3UpJDstkLoZzgs=
+		u0APUShbG395AATfY7Fz2XdJrP0=
 		</data>
 		<key>Headers/FlintCardValidator.h</key>
 		<data>
-		3lUycgnEnHeixOkWdXBFN3V6ikI=
+		dmIwLziKr5WcD81ytA+byMiM3Go=
 		</data>
 		<key>Headers/FlintConnectSDK.h</key>
 		<data>
@@ -210,151 +222,147 @@
 		</data>
 		<key>Headers/FlintContact.h</key>
 		<data>
-		GLY26D882+/Y/45ci5Kaf+CUR/M=
+		MMCHmV8lVqRm678FbCCeHlI2ZQQ=
 		</data>
 		<key>Headers/FlintCreditCard.h</key>
 		<data>
-		4cK+VhzETp73d0uc7jeyr7UFFAc=
+		lis9sEWAG0BjLCXd5tVoMEZtoLM=
 		</data>
 		<key>Headers/FlintDateEntryView.h</key>
 		<data>
-		mbJOgWigDpIK5Qx2gsN73jITDZY=
+		QlPHSdvenWjGQZXcm+YDBUAkiTI=
 		</data>
 		<key>Headers/FlintDigitEditorView.h</key>
 		<data>
-		L3oHV8T2Q560P6rFgAbhu0fux4c=
+		UMdevWhDPdJSVqM8tDAMF63rzbc=
 		</data>
 		<key>Headers/FlintDomainObject.h</key>
 		<data>
-		8v9Cfh5D+D0omhDb+MuW1v688wk=
+		cNwbjSLvzlb+Pu5vm3Bb5PxvmUc=
 		</data>
 		<key>Headers/FlintEmailAddress.h</key>
 		<data>
-		ok7d2AQREHDsD2x4sDfen5qJBPU=
+		OnhKQiwVPvm+5YjDy6mAAuYFXyc=
 		</data>
 		<key>Headers/FlintEmailEntryView.h</key>
 		<data>
-		T1lUCaDB9MIlnBMnBIx9E+NohpE=
+		+RssAqj3KqLnO4UwjnZnjx/pn6c=
 		</data>
 		<key>Headers/FlintHeaderImport.h</key>
 		<data>
-		HVmcEAEhbxYT10sa9RrWCV9/xik=
+		Pe8mKEbb7IAaIxMl7qNNgiqr6r0=
 		</data>
 		<key>Headers/FlintImageStabilizer.h</key>
 		<data>
-		P8DrVMZiwD5NnIoSO+ZRVOx9UXg=
+		tn4c3cNiWZkCD++V2nXh7gqeNJM=
 		</data>
 		<key>Headers/FlintInvoice.h</key>
 		<data>
-		gtcE4pXJrPPiBdCETRiqjc+hUgc=
+		QvC3yQb/oPaz0FyEM/bZ8wc5zM8=
 		</data>
 		<key>Headers/FlintLineTextField.h</key>
 		<data>
-		2mHgLfXdaIBRI5Oalxyt3LxxQH0=
+		cxhUe1nB4P/zllAJtPpZC0i8GGQ=
 		</data>
 		<key>Headers/FlintMerchant.h</key>
 		<data>
-		QOMcfjMA58FjmzbedfVpKgRp/I8=
+		pwRqIRCWZuo27lYbZoZ1R3nORLk=
 		</data>
 		<key>Headers/FlintModelEnum.h</key>
 		<data>
-		GeiSADs/d7ktq3q8XOI5ZIamIGw=
-		</data>
-		<key>Headers/FlintModelProtocols.h</key>
-		<data>
-		x4RKg0rGRas267+0bEGLYzyZdJE=
+		89361OlWttwOR16Gr+ZPdZGrPQg=
 		</data>
 		<key>Headers/FlintNumberEntryView.h</key>
 		<data>
-		iFDcful3xJ8+FgvFmKMD7yXdvkI=
+		5oK5wb08xdk8K4ggZdsT3w69MVg=
 		</data>
 		<key>Headers/FlintOrder.h</key>
 		<data>
-		sgMGE/lV9NV/mEz2Oun4KjuOwkk=
+		k2YfUU62+Xb/kFnPj3o6lYwBaYk=
 		</data>
 		<key>Headers/FlintOrderItem.h</key>
 		<data>
-		UsC5u4lKytf9L2h3CY5bvNCfH3E=
+		2JrAX3J4VK/gtNlx9seofcktiyQ=
 		</data>
 		<key>Headers/FlintPayment.h</key>
 		<data>
-		IsiJusfeHQEtPyT02rxkFvfKyeQ=
+		7i0aj/Fx9K8rzou3z9OHrxVKWx8=
 		</data>
 		<key>Headers/FlintPermissions.h</key>
 		<data>
-		EXhcbHavjNjtRmLEDTfl1PTXXso=
+		8wRet2CkmGdX/PZ1XuIYGmsyC2o=
 		</data>
 		<key>Headers/FlintPhoneEntryView.h</key>
 		<data>
-		/ozj6fzWbJxE4gfNEIymf4dOckk=
+		brk4tVzJUqGRr3jJLM37F1oyymY=
 		</data>
 		<key>Headers/FlintPhoneNumber.h</key>
 		<data>
-		gfnzKoFYusPeAvi9dXPfLYCCHYU=
+		NcTSjrii4/+HGW63seFoz+sjDng=
 		</data>
 		<key>Headers/FlintReceiptOptionView.h</key>
 		<data>
-		J8zqItFbOElwZS3BCREKCuG0hTQ=
+		imNXVe+8VQfZgKM+pWtm6UjaHBU=
 		</data>
 		<key>Headers/FlintRoundButton.h</key>
 		<data>
-		V+omhUzlcVX+klxke2epAgsho0A=
+		K+e89gtcuHSWclB6i6VkpVlkLX8=
 		</data>
 		<key>Headers/FlintRoundSelectionView.h</key>
 		<data>
-		zTo798UidwM0IX8LTJ/CYivrpRM=
+		isVibRnkIOtTlCCk6zRwzFn27r0=
 		</data>
 		<key>Headers/FlintScanResult.h</key>
 		<data>
-		5dYX9KLf1zaZcv53CjEUzLEV8yA=
+		LPo9hcVD1H/Tf+FHLT4dI3lbOJY=
 		</data>
 		<key>Headers/FlintScannedDigit.h</key>
 		<data>
-		0CxRRQl15IipdzbB1ek4dA53MdI=
+		E8hb1uEBiZg8ZoU48o7gaVJQoUw=
 		</data>
 		<key>Headers/FlintService.h</key>
 		<data>
-		fVfXfsawRCNFUoL5fWjmD1G5VUU=
+		O5GCy3h14AtrxjGWfkdvHWOhQSQ=
 		</data>
 		<key>Headers/FlintSignatureView.h</key>
 		<data>
-		h2tvokf03mprTpTQwKKa9AG+o8U=
+		fsSbFStmhIJrNqkxsrqz4jx/rqA=
 		</data>
 		<key>Headers/FlintTextEntryView.h</key>
 		<data>
-		tSizUn3X3DNlNzdimZkxFCgYOxI=
+		D+dMsH1dyHy2QAgEE6FDuWzQ1wQ=
 		</data>
 		<key>Headers/FlintTextField.h</key>
 		<data>
-		/UOd+TS1x4/FUUzQIQoIMQyzMzc=
+		BWtbY9Xg/RHWCwh1l2uBw1zWHug=
 		</data>
 		<key>Headers/FlintTipInputView.h</key>
 		<data>
-		7JX/KEsgVGcKVFFQnlPOGm4IKhE=
+		1fgSvnrAcVSELDz3QMqGu+/fLe0=
 		</data>
 		<key>Headers/FlintTipItem.h</key>
 		<data>
-		2ovNIm61gmQ93xVpiKskAVuU7z4=
+		aoP6Fv4JT6rW21oS7GwOgq4vu7o=
 		</data>
 		<key>Headers/FlintTipSelectionView.h</key>
 		<data>
-		ZV5cFbukz4dKZl7Hpfcd4Tpb/2I=
+		90B1kBKoXpLPyz5EmUyOV73YUNk=
 		</data>
 		<key>Headers/FlintTransaction.h</key>
 		<data>
-		dxlJZSc0qlKtG8shG2uOfdWL+o0=
+		CP+2uGKCRvPjPxN5H3KsKbgW+B8=
 		</data>
 		<key>Headers/FlintTransactionLimits.h</key>
 		<data>
-		gjysv/MnnBsI79v7mNLYtCznk+U=
+		QBTPl5Q/C/haFnXUDhxiwU0QhDw=
 		</data>
 		<key>Headers/FlintUI.h</key>
 		<data>
-		o9l05ppcCWJzirIzEuX/4kKuA0w=
+		yR+Tu4FifxZHJNIrYH8emNkJFpY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZHGatcobc/Z/Ql7eWqQynLciIFU=
+		mwN2rTu/pOPaeANQvIi5IBCA4XA=
 		</data>
 		<key>InvoicePaymentLogo@2x.png</key>
 		<data>
@@ -363,6 +371,10 @@
 		<key>ManualPaymentLogo@2x.png</key>
 		<data>
 		kV+uNfAENPgp+LwXwz/tVDyd3zo=
+		</data>
+		<key>MastercardLogo@2x.png</key>
+		<data>
+		m/rl++rFhfHnazjdC0SLxKliOA8=
 		</data>
 		<key>MemoIcon@2x.png</key>
 		<data>
@@ -388,6 +400,10 @@
 		<data>
 		uJw7riiaxFd3gEpVQgvNjXFEOSw=
 		</data>
+		<key>SmsIcon@2x.png</key>
+		<data>
+		zjMH6nCV4b9tlbB6ovxjABwr2zo=
+		</data>
 		<key>StartCouponButton@2x.png</key>
 		<data>
 		Qe+liH0vH9Oo5XSrWzcL+kh6wLI=
@@ -399,13 +415,25 @@
 		<key>TorchOn@2x.png</key>
 		<data>
 		p1mA7YSXprJBQRNp1GDQt5P1ek0=
+		</data>
+		<key>VisaLogo@2x.png</key>
+		<data>
+		p+gO9leTFaNGx1S6S3DSveeQ/Jg=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AmexLogo@2x.png</key>
+		<data>
+		FQJAgbeYva25YzeRQOTCB1OX9ag=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		dKDm0XHsT46zGwOGYB/CKlgQW28=
+		mPv2VKZdlAQkZktTTOZJrPgbnB0=
+		</data>
+		<key>Backspace@2x.png</key>
+		<data>
+		2V7a5FMpnaKpOjnHLn8+/ZOyfvg=
 		</data>
 		<key>CancelCross@2x.png</key>
 		<data>
@@ -451,157 +479,161 @@
 		<data>
 		uyegHOaRc81rGdhWdnAK9TS4jfU=
 		</data>
+		<key>DiscoverLogo@2x.png</key>
+		<data>
+		jQJ7+a9WHXZt4Nhx6gTH/y1sNAo=
+		</data>
 		<key>EmailIcon@2x.png</key>
 		<data>
 		83V5BgCwLI2vGfTIs5E/ftzm7lo=
 		</data>
-		<key>EmailSentIcon@2x.png</key>
+		<key>EmailIconWhite@2x.png</key>
 		<data>
-		jxS5JRDac55t9Hceo8rSeeCrENU=
+		0Wj7RS61rjvcVVKrja3LSllfEjM=
 		</data>
 		<key>FlintPayment.storyboardc/I0h-on-J3k-view-IoG-cq-T6e.nib</key>
 		<data>
-		piU5N8g5LEnSb1l8W0qPq52ENak=
+		xXNV4yPW8TDSVDc0tcOUC0bPG6k=
 		</data>
 		<key>FlintPayment.storyboardc/Info.plist</key>
 		<data>
-		vJrIPlMuwMkkKxNEMpEAP4WgGWE=
+		HZLUGZwLCbLAp6Sv1cMmIoexXpA=
 		</data>
 		<key>FlintPayment.storyboardc/LPc-FZ-Xuo-view-BPx-WV-6tl.nib</key>
 		<data>
-		w6cgaoHyUXAX8pG4dUkONRoLiqA=
+		Gt44Tr9rolEVpv/DXDO4KclGn98=
 		</data>
 		<key>FlintPayment.storyboardc/LimitExceedVC.nib</key>
 		<data>
-		l6yYzu1X76RLNlmNjoq4UA+IISw=
+		21KF8J5hpEFRIO/Q4EYHRKUX6Ho=
 		</data>
 		<key>FlintPayment.storyboardc/Q2f-nw-iw2-view-OTc-AJ-dn0.nib</key>
 		<data>
-		9/5Lfq7up9WTaWe8cgVmmB84ECI=
+		Q7VkYfLb5vYK1KbKhnSrQUmHQg0=
 		</data>
 		<key>FlintPayment.storyboardc/Tik-7Z-qoF-view-aWI-jM-l1E.nib</key>
 		<data>
-		mfc5h7xnCyIQ0RcfPM5htIFAf+4=
+		QybQ4a00qiJqHjrFAsNqBOlORqk=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-I0h-on-J3k.nib</key>
 		<data>
-		tLYx9DypGg8C9LmHGYBIHCl9djY=
+		2e0HOS5jaGFnVIApObeDvsFVSZw=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-Q2f-nw-iw2.nib</key>
 		<data>
-		CEIp7naX4xXm0P7tEbV7u8u1uzQ=
+		cUXHymS2ja6iNwHYDPzBSepveEY=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-Tik-7Z-qoF.nib</key>
 		<data>
-		8CiaWVjou9y34efOwItW6nZ/7Tg=
+		6FxJGGZswGH+FSd0WDyoR5DUpYc=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-V28-iZ-Tqs.nib</key>
 		<data>
-		xElmwX/UvjSXINda5w6U6k1dvw8=
+		ibq247qXceLp/C4pn9FtKiAI8sU=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-Ywi-XC-OVS.nib</key>
 		<data>
-		5Q2UkQpReK+y3gR5ZZD+ELi6YZI=
+		tcXOcdzKW+/oPR6ao7d3aMGFFr0=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-jpK-Vd-0ju.nib</key>
 		<data>
-		Tv9bsES4Xj//5r0DRZn6/GtfoUE=
+		Ftn42euziMFay5lxXk/pqikM0e4=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-mSs-gd-f2w.nib</key>
 		<data>
-		1+xzEskKQH/E99KcETs4LcwzoQA=
+		MWgeGd+8XvWTH7n3mcW7K8BMWeo=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-wEr-nO-Hag.nib</key>
 		<data>
-		l3jtku+K2rmx807/X5lPHLLnIv0=
+		qPTX1lJhOYRH12jLwvPDCRg5rKA=
 		</data>
 		<key>FlintPayment.storyboardc/UIViewController-wjn-4G-Ccv.nib</key>
 		<data>
-		f/TJGZBHPumNP4Tv528bWgnACwk=
+		xKh6DCizqr1Mq6ZzircbsLg3Sq8=
 		</data>
 		<key>FlintPayment.storyboardc/V28-iZ-Tqs-view-dEz-MH-Xf3.nib</key>
 		<data>
-		xTu7jwGju3G4sFGereDHBcwW+d0=
+		ARi6IvaYHVvKwcstlCbk3wAqxL8=
 		</data>
 		<key>FlintPayment.storyboardc/Ywi-XC-OVS-view-x8a-ft-Y0p.nib</key>
 		<data>
-		w59tW27lQPJBSnV2mBHixeooXYU=
+		yyYkmFvgtM/J0hIMoJ6x+jbFIZY=
 		</data>
 		<key>FlintPayment.storyboardc/aPY-B3-utf-view-3mq-kC-OtV.nib</key>
 		<data>
-		dp6rZVJveojsXmENUKNFkJVxMBc=
+		lzmIopTq6+BFj+1vnLMEcLz5+d8=
 		</data>
 		<key>FlintPayment.storyboardc/jpK-Vd-0ju-view-aZr-QN-LaC.nib</key>
 		<data>
-		afPCmWm4seacHc3BbKGTw8OfQDE=
+		tfqiYbf8qO2ALyK4NWfY6PvC+UQ=
 		</data>
 		<key>FlintPayment.storyboardc/mSs-gd-f2w-view-x50-MT-gf1.nib</key>
 		<data>
-		GOoH4hYTC1K6QuAbVHf9RVr7HEk=
+		kwhLaE1Zv6A3zbzcDkQcJ1YZbCc=
 		</data>
 		<key>FlintPayment.storyboardc/wjn-4G-Ccv-view-f94-JL-EuT.nib</key>
 		<data>
-		YNz9jsXnSChS7k9yR2oYQYRDXk8=
+		FvKeNSHerE/A3uLjmNHVNP+pJ8c=
 		</data>
 		<key>Headers/FlintAPIConfig.h</key>
 		<data>
-		E/A7dBTTQQCjRy70t2WotiLelys=
+		lpK3wemEApiMBGL9vViltDE4Rbk=
 		</data>
 		<key>Headers/FlintAccount.h</key>
 		<data>
-		lSuxKkSo0iytdqcEDb/7jjwKZ3Y=
+		FgUGvzOB3os+1vOZ93b5pVJl1Hk=
 		</data>
 		<key>Headers/FlintActionTextField.h</key>
 		<data>
-		7l3NAyeuc23ltP52tW4A3fg8nqU=
+		5VbMgtBhddlmOATroiUuX9ACciw=
 		</data>
 		<key>Headers/FlintAddress.h</key>
 		<data>
-		1g38bqnJ7xZYrB7PwDmRvbGTNHU=
+		FtnsTpjXTQuEhC/OTBp24ECpyoI=
 		</data>
 		<key>Headers/FlintCSSConstant.h</key>
 		<data>
-		O+NMzUC7TKKntFiltoRz7Fz1I24=
+		5RwGrkqj/wF/eErDvr9Xw3vHBlE=
 		</data>
 		<key>Headers/FlintCSSEngine.h</key>
 		<data>
-		KMTanYwCiyEff6xV9Qy+Ui9bljQ=
+		Pxo168i2VQMBmSElXwjWcfxZInU=
 		</data>
 		<key>Headers/FlintCardDetailView.h</key>
 		<data>
-		XqeLMn3S1TYMvDHz1ucbvha6+z4=
+		h3l8ln24cDEaUsJ8PVIu0eNiSec=
 		</data>
 		<key>Headers/FlintCardEntryView.h</key>
 		<data>
-		qMkBbrWRYwLzOD/mL9l6h5Yg5Rs=
+		K4Pjud6mdd0I5P04hFUt+AhvHwY=
 		</data>
 		<key>Headers/FlintCardNumberEntryView.h</key>
 		<data>
-		UAixcr4f4d3e/G+MaGPLVY4rxLg=
+		Y8vNniswFIjmoMznOvcBUzi8Hss=
 		</data>
 		<key>Headers/FlintCardNumbersEditorView.h</key>
 		<data>
-		HYgRBjmvq5mKCWRIA1c3mKDdDMw=
+		0BW9ZbPjoJCLkfD0Qs4M1dlhLEA=
 		</data>
 		<key>Headers/FlintCardScanner.h</key>
 		<data>
-		RjjmAgVGCkpurHWgOoOdHQkOHcw=
+		7P3uDXwYktDrGcLWPzWXwKEAUWQ=
 		</data>
 		<key>Headers/FlintCardScannerView.h</key>
 		<data>
-		uZWLVAGR3S+pmB/taIOdfM0lK20=
+		vZvpRhs21xAAkGGZ9H41IiwSudI=
 		</data>
 		<key>Headers/FlintCardSigningView.h</key>
 		<data>
-		bfIBwOLhbgU37Mj0HnVd1r0KrB0=
+		r9bwhI3Qzdpe2HCUr+uLGgLPJJE=
 		</data>
 		<key>Headers/FlintCardValidationView.h</key>
 		<data>
-		16E7vR+LlFzFR3UpJDstkLoZzgs=
+		u0APUShbG395AATfY7Fz2XdJrP0=
 		</data>
 		<key>Headers/FlintCardValidator.h</key>
 		<data>
-		3lUycgnEnHeixOkWdXBFN3V6ikI=
+		dmIwLziKr5WcD81ytA+byMiM3Go=
 		</data>
 		<key>Headers/FlintConnectSDK.h</key>
 		<data>
@@ -609,147 +641,143 @@
 		</data>
 		<key>Headers/FlintContact.h</key>
 		<data>
-		GLY26D882+/Y/45ci5Kaf+CUR/M=
+		MMCHmV8lVqRm678FbCCeHlI2ZQQ=
 		</data>
 		<key>Headers/FlintCreditCard.h</key>
 		<data>
-		4cK+VhzETp73d0uc7jeyr7UFFAc=
+		lis9sEWAG0BjLCXd5tVoMEZtoLM=
 		</data>
 		<key>Headers/FlintDateEntryView.h</key>
 		<data>
-		mbJOgWigDpIK5Qx2gsN73jITDZY=
+		QlPHSdvenWjGQZXcm+YDBUAkiTI=
 		</data>
 		<key>Headers/FlintDigitEditorView.h</key>
 		<data>
-		L3oHV8T2Q560P6rFgAbhu0fux4c=
+		UMdevWhDPdJSVqM8tDAMF63rzbc=
 		</data>
 		<key>Headers/FlintDomainObject.h</key>
 		<data>
-		8v9Cfh5D+D0omhDb+MuW1v688wk=
+		cNwbjSLvzlb+Pu5vm3Bb5PxvmUc=
 		</data>
 		<key>Headers/FlintEmailAddress.h</key>
 		<data>
-		ok7d2AQREHDsD2x4sDfen5qJBPU=
+		OnhKQiwVPvm+5YjDy6mAAuYFXyc=
 		</data>
 		<key>Headers/FlintEmailEntryView.h</key>
 		<data>
-		T1lUCaDB9MIlnBMnBIx9E+NohpE=
+		+RssAqj3KqLnO4UwjnZnjx/pn6c=
 		</data>
 		<key>Headers/FlintHeaderImport.h</key>
 		<data>
-		HVmcEAEhbxYT10sa9RrWCV9/xik=
+		Pe8mKEbb7IAaIxMl7qNNgiqr6r0=
 		</data>
 		<key>Headers/FlintImageStabilizer.h</key>
 		<data>
-		P8DrVMZiwD5NnIoSO+ZRVOx9UXg=
+		tn4c3cNiWZkCD++V2nXh7gqeNJM=
 		</data>
 		<key>Headers/FlintInvoice.h</key>
 		<data>
-		gtcE4pXJrPPiBdCETRiqjc+hUgc=
+		QvC3yQb/oPaz0FyEM/bZ8wc5zM8=
 		</data>
 		<key>Headers/FlintLineTextField.h</key>
 		<data>
-		2mHgLfXdaIBRI5Oalxyt3LxxQH0=
+		cxhUe1nB4P/zllAJtPpZC0i8GGQ=
 		</data>
 		<key>Headers/FlintMerchant.h</key>
 		<data>
-		QOMcfjMA58FjmzbedfVpKgRp/I8=
+		pwRqIRCWZuo27lYbZoZ1R3nORLk=
 		</data>
 		<key>Headers/FlintModelEnum.h</key>
 		<data>
-		GeiSADs/d7ktq3q8XOI5ZIamIGw=
-		</data>
-		<key>Headers/FlintModelProtocols.h</key>
-		<data>
-		x4RKg0rGRas267+0bEGLYzyZdJE=
+		89361OlWttwOR16Gr+ZPdZGrPQg=
 		</data>
 		<key>Headers/FlintNumberEntryView.h</key>
 		<data>
-		iFDcful3xJ8+FgvFmKMD7yXdvkI=
+		5oK5wb08xdk8K4ggZdsT3w69MVg=
 		</data>
 		<key>Headers/FlintOrder.h</key>
 		<data>
-		sgMGE/lV9NV/mEz2Oun4KjuOwkk=
+		k2YfUU62+Xb/kFnPj3o6lYwBaYk=
 		</data>
 		<key>Headers/FlintOrderItem.h</key>
 		<data>
-		UsC5u4lKytf9L2h3CY5bvNCfH3E=
+		2JrAX3J4VK/gtNlx9seofcktiyQ=
 		</data>
 		<key>Headers/FlintPayment.h</key>
 		<data>
-		IsiJusfeHQEtPyT02rxkFvfKyeQ=
+		7i0aj/Fx9K8rzou3z9OHrxVKWx8=
 		</data>
 		<key>Headers/FlintPermissions.h</key>
 		<data>
-		EXhcbHavjNjtRmLEDTfl1PTXXso=
+		8wRet2CkmGdX/PZ1XuIYGmsyC2o=
 		</data>
 		<key>Headers/FlintPhoneEntryView.h</key>
 		<data>
-		/ozj6fzWbJxE4gfNEIymf4dOckk=
+		brk4tVzJUqGRr3jJLM37F1oyymY=
 		</data>
 		<key>Headers/FlintPhoneNumber.h</key>
 		<data>
-		gfnzKoFYusPeAvi9dXPfLYCCHYU=
+		NcTSjrii4/+HGW63seFoz+sjDng=
 		</data>
 		<key>Headers/FlintReceiptOptionView.h</key>
 		<data>
-		J8zqItFbOElwZS3BCREKCuG0hTQ=
+		imNXVe+8VQfZgKM+pWtm6UjaHBU=
 		</data>
 		<key>Headers/FlintRoundButton.h</key>
 		<data>
-		V+omhUzlcVX+klxke2epAgsho0A=
+		K+e89gtcuHSWclB6i6VkpVlkLX8=
 		</data>
 		<key>Headers/FlintRoundSelectionView.h</key>
 		<data>
-		zTo798UidwM0IX8LTJ/CYivrpRM=
+		isVibRnkIOtTlCCk6zRwzFn27r0=
 		</data>
 		<key>Headers/FlintScanResult.h</key>
 		<data>
-		5dYX9KLf1zaZcv53CjEUzLEV8yA=
+		LPo9hcVD1H/Tf+FHLT4dI3lbOJY=
 		</data>
 		<key>Headers/FlintScannedDigit.h</key>
 		<data>
-		0CxRRQl15IipdzbB1ek4dA53MdI=
+		E8hb1uEBiZg8ZoU48o7gaVJQoUw=
 		</data>
 		<key>Headers/FlintService.h</key>
 		<data>
-		fVfXfsawRCNFUoL5fWjmD1G5VUU=
+		O5GCy3h14AtrxjGWfkdvHWOhQSQ=
 		</data>
 		<key>Headers/FlintSignatureView.h</key>
 		<data>
-		h2tvokf03mprTpTQwKKa9AG+o8U=
+		fsSbFStmhIJrNqkxsrqz4jx/rqA=
 		</data>
 		<key>Headers/FlintTextEntryView.h</key>
 		<data>
-		tSizUn3X3DNlNzdimZkxFCgYOxI=
+		D+dMsH1dyHy2QAgEE6FDuWzQ1wQ=
 		</data>
 		<key>Headers/FlintTextField.h</key>
 		<data>
-		/UOd+TS1x4/FUUzQIQoIMQyzMzc=
+		BWtbY9Xg/RHWCwh1l2uBw1zWHug=
 		</data>
 		<key>Headers/FlintTipInputView.h</key>
 		<data>
-		7JX/KEsgVGcKVFFQnlPOGm4IKhE=
+		1fgSvnrAcVSELDz3QMqGu+/fLe0=
 		</data>
 		<key>Headers/FlintTipItem.h</key>
 		<data>
-		2ovNIm61gmQ93xVpiKskAVuU7z4=
+		aoP6Fv4JT6rW21oS7GwOgq4vu7o=
 		</data>
 		<key>Headers/FlintTipSelectionView.h</key>
 		<data>
-		ZV5cFbukz4dKZl7Hpfcd4Tpb/2I=
+		90B1kBKoXpLPyz5EmUyOV73YUNk=
 		</data>
 		<key>Headers/FlintTransaction.h</key>
 		<data>
-		dxlJZSc0qlKtG8shG2uOfdWL+o0=
+		CP+2uGKCRvPjPxN5H3KsKbgW+B8=
 		</data>
 		<key>Headers/FlintTransactionLimits.h</key>
 		<data>
-		gjysv/MnnBsI79v7mNLYtCznk+U=
+		QBTPl5Q/C/haFnXUDhxiwU0QhDw=
 		</data>
 		<key>Headers/FlintUI.h</key>
 		<data>
-		o9l05ppcCWJzirIzEuX/4kKuA0w=
+		yR+Tu4FifxZHJNIrYH8emNkJFpY=
 		</data>
 		<key>InvoicePaymentLogo@2x.png</key>
 		<data>
@@ -758,6 +786,10 @@
 		<key>ManualPaymentLogo@2x.png</key>
 		<data>
 		kV+uNfAENPgp+LwXwz/tVDyd3zo=
+		</data>
+		<key>MastercardLogo@2x.png</key>
+		<data>
+		m/rl++rFhfHnazjdC0SLxKliOA8=
 		</data>
 		<key>MemoIcon@2x.png</key>
 		<data>
@@ -783,6 +815,10 @@
 		<data>
 		uJw7riiaxFd3gEpVQgvNjXFEOSw=
 		</data>
+		<key>SmsIcon@2x.png</key>
+		<data>
+		zjMH6nCV4b9tlbB6ovxjABwr2zo=
+		</data>
 		<key>StartCouponButton@2x.png</key>
 		<data>
 		Qe+liH0vH9Oo5XSrWzcL+kh6wLI=
@@ -794,6 +830,10 @@
 		<key>TorchOn@2x.png</key>
 		<data>
 		p1mA7YSXprJBQRNp1GDQt5P1ek0=
+		</data>
+		<key>VisaLogo@2x.png</key>
+		<data>
+		p+gO9leTFaNGx1S6S3DSveeQ/Jg=
 		</data>
 	</dict>
 	<key>rules</key>

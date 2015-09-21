@@ -1,5 +1,5 @@
 //
-//  FlintScannedDigit.h
+/*! @file FlintScannedDigit.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 5/13/15.

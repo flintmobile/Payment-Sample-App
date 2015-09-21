@@ -1,5 +1,5 @@
 //
-//  FlintCardDetailView.h
+/*! @file FlintCardDetailView.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 5/8/15.

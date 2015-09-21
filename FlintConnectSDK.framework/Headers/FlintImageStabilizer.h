@@ -1,5 +1,5 @@
 //
-//  FlintImageStabilizer.h
+/*! @file FlintImageStabilizer.h */
 //  FlintConnect
 //
 //  Created by PC on 4/20/15.
@@ -9,103 +9,139 @@
 #import <Foundation/Foundation.h>
 #import <AVFoundation/AVFoundation.h>
 
-@class FlintImageStabilizer;
-
-typedef NS_ENUM(NSInteger, FlintImageStabilizerMode) {
-  ImageStabilizerModeAutoFocus,
-  ImageStabilizerModeStableTimeReached,
+/*!
+ *  @enum FlintImageStabilizerMode
+ *
+ *  @brief Different way the image is considered stable
+ */
+typedef NS_ENUM(NSInteger, FlintImageStabilizerMode){
+  ImageStabilizerModeUnknown,               /*!< Stability is unknown or not yet aquired */
+  ImageStabilizerModeAutoFocus,             /*!< It is stable based on auto focus standard. */
+  ImageStabilizerModeStableTimeReached,     /*!< It is stable based on time standard. */
 };
 
-@protocol FlintImageStabilizerDelegate <NSObject>
 
-@optional
 
-/**
- *  The focus is 'in' when the max displacement is below vibrationThreshold
- *  It is 'out' when the max displacement is above vibrationThreshold + tolerance ammount
+@protocol FlintImageStabilizerDelegate;
+
+/*!
+ *  @class FlintImageStabilizer
  *
- *  @param imageStabilizer the stabilizer
- *  @param isFocus         YES for in focus and NO for out focus
+ *  @brief the stabilizer for image scanning
  */
-- (void)imageStabilizer:(FlintImageStabilizer *)imageStabilizer temporaryStable:(BOOL)isStable;
-
-/**
- *  Delegate fired when image stablizer aquired stability within defined settings
- *  Giving the IS for the option to stop update directly from this method
- *
- *  @param imageStabilizer the stabilizer
- */
-- (void)imageStabilizierAquiredStability:(FlintImageStabilizer *)imageStabilizer;
-
-@end
-
 @interface FlintImageStabilizer : NSObject
 
+/*!
+ *  @brief The capture device associate with this image stabilizer.
+ */
+@property (strong, nonatomic, readonly) AVCaptureDevice *captureDevice;
+
+/*!
+ *  @brief Create an image stabilizer for the specified capture device.
+ *
+ *  @param captureDevice The capture device.
+ *
+ *  @return The image stabilizer.
+ */
 - (instancetype)initWithDevice:(AVCaptureDevice *)captureDevice;
 
-/**
- *  when vibration go below the vibrationThreshold and stay within the vibrationTolerance
- *  for longer than the minStableInterval,
- *  stability status will be reported.
- *  Increase this value will make the stabilizer acquire focus lock (not stability) easier and vice versa
- *  Default to 2.5
+/*!
+ *  @brief The threshold to determine temporary stability.
+ *
+ *  @discussion When vibration goes below the vibrationThreshold and stay within the vibrationTolerance for longer than the minStableInterval, stability status will be reported. Increase this value will make the stabilizer acquire temporary stable state easier and vice versa. 
+ *  
+ *  @default 2.5
  */
 @property (assign, nonatomic) double vibrationThreshold;
 
-/**
- *  when vibration go below the vibrationThreshold and stay within the vibrationTolerance
- *  for longer than the minStableInterval,
- *  stability status will be reported.
- *  Increaase this value will make the stabilizer stay in focus lock longer and vice versa
- *  Default to 0.15 (15 %)
+/*!
+ *  @brief The tolerance to keep being temporary stable.
+ *
+ *  @discussion When vibration goes below the vibrationThreshold and stay within the vibrationTolerance for longer than the minStableInterval, stability status will be reported. Increase this value will make the stabilizer stay in temporary stable longer and vice versa. 
+ *  
+ *  @default 0.2 (20 %).
  */
 @property (assign, nonatomic) double vibrationTolerance;
 
-/**
- *  when vibration go below the vibrationThreshold and stay within the vibrationTolerance
- *  for longer than the minStableInterval,
- *  stability status will be reported.
- *  Decrease this value will shorter the time it takes to report stability status. 
- *  However, the shorter the time is, the less accuracy you might have. 
- *  This should be set to be long enough for the camera to aquire focus
- *  Default to 1 second
+/*!
+ *  @brief The time from temporary stable to actual stable state.
+ *
+ *  @discussion When vibration goes below the vibrationThreshold and stay within the vibrationTolerance for longer than the minStableInterval, stability status will be reported. Decrease this value will shorter the time it takes to report stability status. However, the shorter the time is, the less accuracy you might have. This should be set to be long enough for the camera to aquire focus. 
+ *
+ *  @default 1 (second)
  */
 @property (assign, nonatomic) NSTimeInterval minStableInterval;
 
-/**
- *  During the time of focus lock, if enableAutoFocus is set to YES, stability status will be reported
- *  As soon as focus is acquired on the hardward device even though the minStableInterval may not be reached yet
- *  Default to YES
+/*!
+ *  @brief Autofocus enhancement.
+ *
+ *  @discussion If enableAutoFocus is set to YES and the camera support autofocus, during the time of focus lock, stability status will be reported as soon as focus is acquired on the hardward device even though the minStableInterval may not be reached yet. 
+ *  
+ *  @default NO.
  */
 @property (assign, nonatomic) BOOL enableAutoFocus;
 
-/**
- *  when stability 's reached, this flag give us the report on how stability is acquired
+/*!
+ *  @brief Stability mode.
+ *
+ *  @default ImageStabilizerModeUnknown
  */
 @property (assign, nonatomic) FlintImageStabilizerMode stableMode;
 
-/**
- *  Delegate for call back when stability aquired
+/*!
+ *  Delegate for call back when stability aquired.
  */
 @property (weak, nonatomic) id<FlintImageStabilizerDelegate>delegate;
 
-/**
- *  determine if stability update is running
+/*!
+ *  @brief Determine if stability update is running.
  *
  *  @return YES if it is running, NO otherwise
  */
 - (BOOL)isUpdatingStability;
 
-/**
- *  Start checking for stable state. When the stable level aquired, the delegate will be fired
- *  Duplicate call to this method resolve in no effect, just give warning
+/*!
+ *  @brief Start checking for stable state. 
+ *  
+ *  @discussion When the stable level aquired, the delegate will be fired. Duplicate call to this method resolve in no effect, just give warning.
  */
 - (void)startStabilityUpdate;
 
-/**
- *  Stop checking for stable state.
- *  When stability status acquired, this is called automatically
+/*!
+ *  @brief Stop checking for stable state.
+ *
+ *  @discussion When stability status acquired, this is called automatically
  */
 - (void)stopStabilityUpdate;
+
+@end
+
+
+
+/*!
+ *  @protocol FlintImageStabilizerDelegate
+ *
+ *  @brief Delegate call back at different stage of the stabilizing process.
+ *
+ *  @discussion the image stabilizer use the core motion framework to detect current vibration displacement. When it detects a short moment of stability (constraint by the vibration threshold), it will first fire imageStabilizer:temporaryStable: method. If the stability continue long enough or focus has been locked in, it will fire imageStabilizerAquiredStability: method
+ */
+@protocol FlintImageStabilizerDelegate <NSObject>
+
+@optional
+
+/*!
+ *  @brief Temporary stable state is when max displacement fall below vibration threshold and stay within threshold + tolerance.
+ *
+ *  @param imageStabilizer The image stabilizer.
+ *  @param isStable        The stability status.
+ */
+- (void)imageStabilizer:(FlintImageStabilizer *)imageStabilizer temporaryStable:(BOOL)isStable;
+
+/*!
+ *  @brief Stability state is when temporary stable last more than min stable interval or auto focus acquired.
+ *
+ *  @param imageStabilizer The image stabilizer.
+ */
+- (void)imageStabilizerAquiredStability:(FlintImageStabilizer *)imageStabilizer;
 
 @end

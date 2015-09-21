@@ -1,5 +1,5 @@
 //
-//  FlintDigitEditorView.h
+/*! @file FlintDigitEditorView.h */
 //  FlintConnect
 //
 //  Created by PC on 5/5/15.

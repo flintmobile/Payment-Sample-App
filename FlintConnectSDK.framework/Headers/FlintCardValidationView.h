@@ -1,5 +1,5 @@
 //
-//  FlintCardValidationView.h
+/*! @file FlintCardValidationView.h */
 //  FlintConnect
 //
 //  Created by Phuoc Nguyen on 5/7/15.
@@ -8,17 +8,26 @@
 
 #import <UIKit/UIKit.h>
 #import "FlintCardValidator.h"
-
-@class FlintCardNumbersEditorView;
+#import "FlintCardNumbersEditorView.h"
 
 IB_DESIGNABLE
 
+/*!
+ *  @class FlintCardValidationView
+ *
+ *  @brief A prebuilt UI component for card number validation and editing.
+ */
 @interface FlintCardValidationView : UIView
 
+/*!
+ *  @brief Validation status.
+ */
 @property (assign, nonatomic, readonly) FlintCardValidationStatus validationStatus;
 
-/**
- *  Toggle the visibility of the status bar
+/*!
+ *  @brief Toggle the visibility of the validation status bar.
+ *
+ *  @discussion This is useful when keyboard appear and the focus is editing
  *
  *  @param visible is visible
  *  @param animate should come with animation or not
@@ -27,45 +36,50 @@ IB_DESIGNABLE
 
 #pragma mark - IBInspectable
 
-/**
- *  The card number to be validate
+/*!
+ *  @brief The card number to be validate.
  */
 @property (strong, nonatomic) IBInspectable NSString *cardNumber;
 
-/**
- *  The validation image of the card number
+/*!
+ *  @brief The validation image of the card number.
  */
 @property (strong, nonatomic) IBInspectable UIImage *cardNumberImage;
 
-/**
- *  The status icon when the card is valid
+/*!
+ *  @brief The status icon when the card is valid.
  */
 @property (strong, nonatomic) IBInspectable UIImage *validIcon;
 
-/**
- *  The status icon when the card is invalid
+/*!
+ *  @brief The status icon when the card is invalid.
  */
 @property (strong, nonatomic) IBInspectable UIImage *invalidIcon;
 
-/**
- *  The font name for the number editor
- *  Default to be SDK font name
+/*!
+ *  @brief The font name for the number editor.
+ *
+ *  @default SDK theme font name
  */
 @property (copy, nonatomic) IBInspectable NSString *fontName;
 
-/**
- *  The font size for the number editor
- *  Default to be SDK button font size
+/*!
+ *  @brief The font size for the number editor
+ *
+ *  @default SDK button font size
  */
 @property (assign, nonatomic) IBInspectable CGFloat fontSize;
 
-/**
- *  The color for the number editor
- *  Default to be SDK theme color
+/*!
+ *  @brief Main color scheme
+ *
+ *  @default SDK theme color
  */
 @property (strong, nonatomic) IBInspectable UIColor *color;
 
 @end
+
+
 
 @interface FlintCardValidationView (UIAccessors)
 

@@ -1,5 +1,5 @@
 //
-//  FlintContact.h
+/*! @file FlintContact.h */
 //  FlintConnect
 //
 //  Created by PC on 3/27/15.

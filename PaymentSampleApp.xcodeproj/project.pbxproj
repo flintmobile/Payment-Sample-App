@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F5EB98D1B98F7A900B4C76E /* FlintConnectSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5EB98C1B98F7A900B4C76E /* FlintConnectSDK.framework */; };
-		4F5EB98E1B98F7A900B4C76E /* FlintConnectSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F5EB98C1B98F7A900B4C76E /* FlintConnectSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F5EB9931B9A15F100B4C76E /* PMTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5EB9921B9A15F100B4C76E /* PMTTextField.m */; };
 		4F8D0ED11ACF042B004CEBDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0ED01ACF042B004CEBDF /* main.m */; };
 		4F8D0ED41ACF042B004CEBDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D0ED31ACF042B004CEBDF /* AppDelegate.m */; };
@@ -16,6 +14,8 @@
 		4F8D0EDA1ACF042B004CEBDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D0ED81ACF042B004CEBDF /* Main.storyboard */; };
 		4F8D0EDC1ACF042B004CEBDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D0EDB1ACF042B004CEBDF /* Images.xcassets */; };
 		4F8D0EDF1ACF042B004CEBDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D0EDD1ACF042B004CEBDF /* LaunchScreen.xib */; };
+		4FF0BA0A1BB088F400B19EE4 /* FlintConnectSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF0BA091BB088F400B19EE4 /* FlintConnectSDK.framework */; };
+		4FF0BA0B1BB088F400B19EE4 /* FlintConnectSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FF0BA091BB088F400B19EE4 /* FlintConnectSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4F5EB98E1B98F7A900B4C76E /* FlintConnectSDK.framework in Embed Frameworks */,
+				4FF0BA0B1BB088F400B19EE4 /* FlintConnectSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,7 +33,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4F5EB98C1B98F7A900B4C76E /* FlintConnectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlintConnectSDK.framework; sourceTree = "<group>"; };
 		4F5EB9911B9A15F100B4C76E /* PMTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMTTextField.h; sourceTree = "<group>"; };
 		4F5EB9921B9A15F100B4C76E /* PMTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMTTextField.m; sourceTree = "<group>"; };
 		4F8D0ECB1ACF042B004CEBDF /* PaymentSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +47,7 @@
 		4F8D0EDE1ACF042B004CEBDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4F8D0EE91ACF042B004CEBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F8D0EEA1ACF042B004CEBDF /* SDKSandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKSandboxTests.m; sourceTree = "<group>"; };
+		4FF0BA091BB088F400B19EE4 /* FlintConnectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlintConnectSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F5EB98D1B98F7A900B4C76E /* FlintConnectSDK.framework in Frameworks */,
+				4FF0BA0A1BB088F400B19EE4 /* FlintConnectSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +74,7 @@
 		4F8D0EC21ACF042B004CEBDF = {
 			isa = PBXGroup;
 			children = (
-				4F5EB98C1B98F7A900B4C76E /* FlintConnectSDK.framework */,
+				4FF0BA091BB088F400B19EE4 /* FlintConnectSDK.framework */,
 				4F8D0ECD1ACF042B004CEBDF /* PaymentSampleApp */,
 				4F8D0EE71ACF042B004CEBDF /* PaymentSampleAppTests */,
 				4F8D0ECC1ACF042B004CEBDF /* Products */,

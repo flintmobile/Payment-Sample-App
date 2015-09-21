@@ -56,7 +56,6 @@
  *  Model
  ***********************/
 
-#import "FlintModelProtocols.h"
 #import "FlintModelEnum.h"
 #import "FlintCreditCard.h"
 #import "FlintMerchant.h"

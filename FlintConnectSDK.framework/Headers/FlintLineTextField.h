@@ -1,5 +1,5 @@
 //
-//  FlintLineTextField.h
+/*! @file  FlintLineTextField.h */
 //  FlintConnect
 //
 //  Created by PC on 4/8/15.

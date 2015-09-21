@@ -1,5 +1,5 @@
 //
-//  FlintService.h
+/*! @file FlintService.h */
 //  FlintConnect
 //
 //  Created by Nidhi on 3/4/15.
