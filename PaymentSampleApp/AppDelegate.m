@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <FlintConnectSDK/FlintConnectSDK.h>
+#import <UIKit/UIKit.h>
 
 @interface AppDelegate ()
 
@@ -51,8 +52,7 @@
    * Providing the mechanism to customize the overall theme for the payment work flow
    * For individual component customization, use our Default.css in the SDK framework bundle
    */
-  [FlintCSSEngine setThemeColorWithRed:20 green:255 blue:150 alpha:1.0f];
-  
+  [FlintThemeEngine setThemeColor:[UIColor colorWithRed:20.0/255 green:255.0/255 blue:150.0/255 alpha:1.0f]];
   return YES;
 }
 

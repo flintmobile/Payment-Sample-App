@@ -1,0 +1,10 @@
+PODS:
+  - FlintConnectSDK (0.0.2-beta)
+
+DEPENDENCIES:
+  - FlintConnectSDK
+
+SPEC CHECKSUMS:
+  FlintConnectSDK: 45e844c0d273e87292b8af47fc54aaf13534e776
+
+COCOAPODS: 0.39.0
