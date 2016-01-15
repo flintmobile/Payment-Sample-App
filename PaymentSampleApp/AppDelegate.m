@@ -24,7 +24,7 @@
    * There are also option to start Flint Service and Authenticate user at a later point in time
    * Simply not providing the username and passord here and user loginWithUsername:password:completion: method on FlintService
    */
-  [FlintAPIConfig sharedInstance].APIKey = @"4d72de8c70d3ba2e0fef18bd6231bdb7";
+  [FlintAPIConfig sharedInstance].APIKey = @"6ab9de448dde5ac59240e1e95a7198d9";
   [FlintAPIConfig sharedInstance].environment = EnvironmentStaging;
   [FlintAPIConfig sharedInstance].username = @"test0001@mailinator.com";
   [FlintAPIConfig sharedInstance].password = @"T3st1ng1";
