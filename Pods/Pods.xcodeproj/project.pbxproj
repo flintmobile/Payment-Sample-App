@@ -23,77 +23,79 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02005649B664D97EB0C541C96BE3DFE0 /* FlintCSSConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCSSConstant.h; path = FlintConnectSDK.framework/Headers/FlintCSSConstant.h; sourceTree = "<group>"; };
-		03D94E599DF4351F93F5E88E6A1D149D /* FlintThemeEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintThemeEngine.h; path = FlintConnectSDK.framework/Headers/FlintThemeEngine.h; sourceTree = "<group>"; };
-		0B5BB250D62D6D9681F32AE519890D73 /* FlintCardDetailView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardDetailView.h; path = FlintConnectSDK.framework/Headers/FlintCardDetailView.h; sourceTree = "<group>"; };
-		0D0BA6FE1D610D01F29E943405E5813C /* FlintLimitTextEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintLimitTextEntryView.h; path = FlintConnectSDK.framework/Headers/FlintLimitTextEntryView.h; sourceTree = "<group>"; };
-		0D295972F75382028D1C954B001BA649 /* FlintCardValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardValidator.h; path = FlintConnectSDK.framework/Headers/FlintCardValidator.h; sourceTree = "<group>"; };
-		0FF3782EF23FD36C8BF8D58F457CFF60 /* FlintNumberEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintNumberEntryView.h; path = FlintConnectSDK.framework/Headers/FlintNumberEntryView.h; sourceTree = "<group>"; };
-		107847455B81BEC389D2B8A577C8C25D /* FlintCardValidationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardValidationView.h; path = FlintConnectSDK.framework/Headers/FlintCardValidationView.h; sourceTree = "<group>"; };
-		11C3D2505BB2DBD739F0BB76F02D73F9 /* FlintUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintUI.h; path = FlintConnectSDK.framework/Headers/FlintUI.h; sourceTree = "<group>"; };
-		1610B635AC7E44D6AD3DC30F3A004FC6 /* FlintDomainObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintDomainObject.h; path = FlintConnectSDK.framework/Headers/FlintDomainObject.h; sourceTree = "<group>"; };
-		1A1E4177C93CE32139AA73E61AA392AA /* FlintTipItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTipItem.h; path = FlintConnectSDK.framework/Headers/FlintTipItem.h; sourceTree = "<group>"; };
-		217ACDFD243B1603DD0BC6B50D80083F /* FlintActionTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintActionTextField.h; path = FlintConnectSDK.framework/Headers/FlintActionTextField.h; sourceTree = "<group>"; };
+		0BECA4B0E59C3DB725BA07CB8468044D /* FlintCardScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardScanner.h; path = FlintConnectSDK.framework/Headers/FlintCardScanner.h; sourceTree = "<group>"; };
+		0CBE123CF88A49DB599F280F1CC8D3CF /* FlintCardNumbersEditorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardNumbersEditorView.h; path = FlintConnectSDK.framework/Headers/FlintCardNumbersEditorView.h; sourceTree = "<group>"; };
+		1900834E0A1D10D617E6D947293722E9 /* FlintDigitEditorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintDigitEditorView.h; path = FlintConnectSDK.framework/Headers/FlintDigitEditorView.h; sourceTree = "<group>"; };
+		1C78ED515E16A47FB5640313DB0A4EB6 /* FlintConnectSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintConnectSDK.h; path = FlintConnectSDK.framework/Headers/FlintConnectSDK.h; sourceTree = "<group>"; };
+		1D033D4E3B69F427236EABBF8E5B1F0E /* FlintCardEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardEntryView.h; path = FlintConnectSDK.framework/Headers/FlintCardEntryView.h; sourceTree = "<group>"; };
+		28208E0492C78F187B458E3B7FE496E0 /* FlintCardDetailView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardDetailView.h; path = FlintConnectSDK.framework/Headers/FlintCardDetailView.h; sourceTree = "<group>"; };
+		2B113C515B0C783F35659B055D63D63E /* FlintRoundButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintRoundButton.h; path = FlintConnectSDK.framework/Headers/FlintRoundButton.h; sourceTree = "<group>"; };
 		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		3017C02B4590572FE9D702B60DC862DA /* FlintCardEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardEntryView.h; path = FlintConnectSDK.framework/Headers/FlintCardEntryView.h; sourceTree = "<group>"; };
-		36D2E23477FDD6E240FDF7FA31104BC4 /* FlintCardNumbersEditorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardNumbersEditorView.h; path = FlintConnectSDK.framework/Headers/FlintCardNumbersEditorView.h; sourceTree = "<group>"; };
-		37AE3F8801C1738235EF12534CD4AE08 /* FlintFixedToolBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintFixedToolBar.h; path = FlintConnectSDK.framework/Headers/FlintFixedToolBar.h; sourceTree = "<group>"; };
-		38F7D539FD91A6B37E486D51DA2B2FD3 /* FlintEmailAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintEmailAddress.h; path = FlintConnectSDK.framework/Headers/FlintEmailAddress.h; sourceTree = "<group>"; };
+		2DB9499705E536C6290ACB23043E4821 /* FlintConnectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlintConnectSDK.framework; sourceTree = "<group>"; };
+		3058B352EDFB08CF99277BFC102DB6AF /* FlintModelEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintModelEnum.h; path = FlintConnectSDK.framework/Headers/FlintModelEnum.h; sourceTree = "<group>"; };
+		3370885E1D17DF95B65004E1F6738227 /* FlintImageStabilizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintImageStabilizer.h; path = FlintConnectSDK.framework/Headers/FlintImageStabilizer.h; sourceTree = "<group>"; };
+		36E3759619253E7BD9A8E228CB00CDBB /* FlintPermissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintPermissions.h; path = FlintConnectSDK.framework/Headers/FlintPermissions.h; sourceTree = "<group>"; };
+		3A44D7E74B70B8FB19C3615B1F2D0C8D /* FlintEmailAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintEmailAddress.h; path = FlintConnectSDK.framework/Headers/FlintEmailAddress.h; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3E79A3251E9322978AB564FF2DADFCFF /* FlintTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTransaction.h; path = FlintConnectSDK.framework/Headers/FlintTransaction.h; sourceTree = "<group>"; };
-		3FAF1EE91619CBC1763D6CC933699591 /* FlintHeaderImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintHeaderImport.h; path = FlintConnectSDK.framework/Headers/FlintHeaderImport.h; sourceTree = "<group>"; };
+		3FEB9007B9DF19F59F7870198F27AED4 /* FlintResources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintResources.h; path = FlintConnectSDK.framework/Headers/FlintResources.h; sourceTree = "<group>"; };
 		4125CC8B5D8958C14B6BA80D4E54B929 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F0066E0AC7FA9D6024075224EBF4FF4 /* FlintTipSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTipSelectionView.h; path = FlintConnectSDK.framework/Headers/FlintTipSelectionView.h; sourceTree = "<group>"; };
-		535E08B16FFAFBC0E0C15B7CB3447B91 /* FlintTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTextField.h; path = FlintConnectSDK.framework/Headers/FlintTextField.h; sourceTree = "<group>"; };
+		414C39BC7DF947AA0BBD3BC273033379 /* FlintCardValidationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardValidationView.h; path = FlintConnectSDK.framework/Headers/FlintCardValidationView.h; sourceTree = "<group>"; };
+		432A64BF6A413FFF5BC8565DD9671AF5 /* FlintPhoneEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintPhoneEntryView.h; path = FlintConnectSDK.framework/Headers/FlintPhoneEntryView.h; sourceTree = "<group>"; };
+		442E0419B3AF01B855C4474AC54C8883 /* FlintPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintPhoneNumber.h; path = FlintConnectSDK.framework/Headers/FlintPhoneNumber.h; sourceTree = "<group>"; };
+		45E619742CC33E2BADD0CBBD1C8BB3C9 /* FlintAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintAccount.h; path = FlintConnectSDK.framework/Headers/FlintAccount.h; sourceTree = "<group>"; };
+		45FF46E383126AD9049E4105AD8F5F5D /* FlintScanResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintScanResult.h; path = FlintConnectSDK.framework/Headers/FlintScanResult.h; sourceTree = "<group>"; };
+		47FFD4DB68AE8C2D7B5EC86004B74498 /* FlintService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintService.h; path = FlintConnectSDK.framework/Headers/FlintService.h; sourceTree = "<group>"; };
+		48C8463F922C27252678A98913D7F409 /* FlintFixedToolBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintFixedToolBar.h; path = FlintConnectSDK.framework/Headers/FlintFixedToolBar.h; sourceTree = "<group>"; };
+		4E8600028A46FB6361F5227527B8704C /* FlintTipInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTipInputView.h; path = FlintConnectSDK.framework/Headers/FlintTipInputView.h; sourceTree = "<group>"; };
+		5181A8D4648527737725DFFADB7FD103 /* FlintCardSigningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardSigningView.h; path = FlintConnectSDK.framework/Headers/FlintCardSigningView.h; sourceTree = "<group>"; };
 		57D4C2F96C4FA8DD12C97700F31582CC /* FlintConnect.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlintConnect.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D3791B790ADBB6AC51E2B8E7A8F9697 /* FlintCreditCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCreditCard.h; path = FlintConnectSDK.framework/Headers/FlintCreditCard.h; sourceTree = "<group>"; };
-		5F92A5B9BCC0C57B73CC6EBB2F38A315 /* FlintAccount.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintAccount.h; path = FlintConnectSDK.framework/Headers/FlintAccount.h; sourceTree = "<group>"; };
-		60495CE71B996E53D614ECDE12DA1603 /* FlintInvoice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintInvoice.h; path = FlintConnectSDK.framework/Headers/FlintInvoice.h; sourceTree = "<group>"; };
-		60E068D27983B204EA27142521F0BE51 /* FlintPermissions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintPermissions.h; path = FlintConnectSDK.framework/Headers/FlintPermissions.h; sourceTree = "<group>"; };
-		6860BF50012CA1962BC4625FEFF64390 /* FlintRoundSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintRoundSelectionView.h; path = FlintConnectSDK.framework/Headers/FlintRoundSelectionView.h; sourceTree = "<group>"; };
-		791DC463EA10895A7EA213AD4DD723E4 /* FlintPhoneEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintPhoneEntryView.h; path = FlintConnectSDK.framework/Headers/FlintPhoneEntryView.h; sourceTree = "<group>"; };
+		5C8ACAF3F1164DC542B56FF1A186359F /* FlintAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintAddress.h; path = FlintConnectSDK.framework/Headers/FlintAddress.h; sourceTree = "<group>"; };
+		64E48568915CE71DB2E5C5A7C9A8627A /* FlintNumericKeyPadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintNumericKeyPadView.h; path = FlintConnectSDK.framework/Headers/FlintNumericKeyPadView.h; sourceTree = "<group>"; };
+		65B8F9620E2CACEACBB536C67875C2A3 /* FlintOrderItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintOrderItem.h; path = FlintConnectSDK.framework/Headers/FlintOrderItem.h; sourceTree = "<group>"; };
+		67A808682503797A0968558586895F91 /* FlintMerchant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintMerchant.h; path = FlintConnectSDK.framework/Headers/FlintMerchant.h; sourceTree = "<group>"; };
+		763A77B4771C175524AB47071DBE01F3 /* FlintOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintOrder.h; path = FlintConnectSDK.framework/Headers/FlintOrder.h; sourceTree = "<group>"; };
+		78597C27103D37DD9F9B5E9C14B0C35B /* FlintTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTextField.h; path = FlintConnectSDK.framework/Headers/FlintTextField.h; sourceTree = "<group>"; };
+		79087202255F1127E61C0EC9DC51F872 /* FlintAPIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintAPIConfig.h; path = FlintConnectSDK.framework/Headers/FlintAPIConfig.h; sourceTree = "<group>"; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
-		79BD84BDA688CCC64D801529D7481877 /* FlintReceiptOptionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintReceiptOptionView.h; path = FlintConnectSDK.framework/Headers/FlintReceiptOptionView.h; sourceTree = "<group>"; };
-		7EF4F911C7229B34FA64E81355E7B9FA /* FlintTransactionLimits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTransactionLimits.h; path = FlintConnectSDK.framework/Headers/FlintTransactionLimits.h; sourceTree = "<group>"; };
-		7FA78E117B4C9DA80C937506E77E04CB /* FlintPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintPayment.h; path = FlintConnectSDK.framework/Headers/FlintPayment.h; sourceTree = "<group>"; };
-		849CB8166068128BCB7C66863E1DF4DE /* FlintConnectSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintConnectSDK.h; path = FlintConnectSDK.framework/Headers/FlintConnectSDK.h; sourceTree = "<group>"; };
+		7A841B3D9FC5CD4CE93382DDACAECEF1 /* FlintTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTransaction.h; path = FlintConnectSDK.framework/Headers/FlintTransaction.h; sourceTree = "<group>"; };
+		82DD842F230EA2A04C9B220A8253D998 /* FlintTextEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTextEntryView.h; path = FlintConnectSDK.framework/Headers/FlintTextEntryView.h; sourceTree = "<group>"; };
+		86440B60A8658F8FA98BE17673370BF7 /* FlintLineTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintLineTextField.h; path = FlintConnectSDK.framework/Headers/FlintLineTextField.h; sourceTree = "<group>"; };
+		86460A60A86B3C0473B653E168C1E442 /* FlintCardValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardValidator.h; path = FlintConnectSDK.framework/Headers/FlintCardValidator.h; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		88F4329309E757F6131B4AE5CF26877C /* FlintEmailEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintEmailEntryView.h; path = FlintConnectSDK.framework/Headers/FlintEmailEntryView.h; sourceTree = "<group>"; };
 		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		9613B7E3F91ABA2E611058C7D58C9C00 /* FlintMerchant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintMerchant.h; path = FlintConnectSDK.framework/Headers/FlintMerchant.h; sourceTree = "<group>"; };
-		961B9EBFD62C795BF57E8DBBE27A7580 /* FlintSignatureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintSignatureView.h; path = FlintConnectSDK.framework/Headers/FlintSignatureView.h; sourceTree = "<group>"; };
-		9625ED443DDBB9BA1D9831FA178FDF09 /* FlintScannedDigit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintScannedDigit.h; path = FlintConnectSDK.framework/Headers/FlintScannedDigit.h; sourceTree = "<group>"; };
+		8C9F4D278E32C586EC1DC1C2304E5F16 /* FlintUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintUI.h; path = FlintConnectSDK.framework/Headers/FlintUI.h; sourceTree = "<group>"; };
+		8DBC1AA3531DE0671916CC9F1D069809 /* FlintCSSConstant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCSSConstant.h; path = FlintConnectSDK.framework/Headers/FlintCSSConstant.h; sourceTree = "<group>"; };
+		92ACB170EF6193A1691BE78EA45DF0DA /* FlintDomainObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintDomainObject.h; path = FlintConnectSDK.framework/Headers/FlintDomainObject.h; sourceTree = "<group>"; };
+		973B163C7894A3A15FA0897389D22D9D /* FlintPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintPayment.h; path = FlintConnectSDK.framework/Headers/FlintPayment.h; sourceTree = "<group>"; };
 		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		A0E6F4E65DAEA9AF64E54BFB9D2C451A /* FlintCardSigningView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardSigningView.h; path = FlintConnectSDK.framework/Headers/FlintCardSigningView.h; sourceTree = "<group>"; };
-		A363683A995D0E9BC6C4083D59EBE696 /* FlintCardScannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardScannerView.h; path = FlintConnectSDK.framework/Headers/FlintCardScannerView.h; sourceTree = "<group>"; };
-		A83E97B7C70744844197040A7376B359 /* FlintDigitEditorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintDigitEditorView.h; path = FlintConnectSDK.framework/Headers/FlintDigitEditorView.h; sourceTree = "<group>"; };
-		ADB6DB0301B48BCBA203CA385CD800B5 /* FlintContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintContact.h; path = FlintConnectSDK.framework/Headers/FlintContact.h; sourceTree = "<group>"; };
-		B7433DA13B2BB97663BE0458E86EEDE3 /* FlintPhoneNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintPhoneNumber.h; path = FlintConnectSDK.framework/Headers/FlintPhoneNumber.h; sourceTree = "<group>"; };
+		9CC4CC809ACDD30C560A6A33421A8FBB /* FlintContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintContact.h; path = FlintConnectSDK.framework/Headers/FlintContact.h; sourceTree = "<group>"; };
+		9EECCCC8E50955BC963208C7B671C8E9 /* FlintScannedDigit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintScannedDigit.h; path = FlintConnectSDK.framework/Headers/FlintScannedDigit.h; sourceTree = "<group>"; };
+		A5C3004D414AB4060923C764F60CF093 /* FlintTipItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTipItem.h; path = FlintConnectSDK.framework/Headers/FlintTipItem.h; sourceTree = "<group>"; };
+		A61C3AC91816ED6D1FB55F3AF5B6C5CA /* FlintCreditCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCreditCard.h; path = FlintConnectSDK.framework/Headers/FlintCreditCard.h; sourceTree = "<group>"; };
+		AC32E45EF0DBBCC972944A8D671625E3 /* FlintThemeEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintThemeEngine.h; path = FlintConnectSDK.framework/Headers/FlintThemeEngine.h; sourceTree = "<group>"; };
+		B3E20B0442C3624B03CEFFDEA23AD7A3 /* FlintSignatureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintSignatureView.h; path = FlintConnectSDK.framework/Headers/FlintSignatureView.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C3A9D25513E8283BFA0D24AA8F7F1A14 /* FlintCardScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardScanner.h; path = FlintConnectSDK.framework/Headers/FlintCardScanner.h; sourceTree = "<group>"; };
-		C45F90A43FA568A544DD36F993E674E3 /* FlintTipInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTipInputView.h; path = FlintConnectSDK.framework/Headers/FlintTipInputView.h; sourceTree = "<group>"; };
-		C50B62E3B1BA68E177717874F376C991 /* FlintCardNumberEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardNumberEntryView.h; path = FlintConnectSDK.framework/Headers/FlintCardNumberEntryView.h; sourceTree = "<group>"; };
-		CB87EBDCC9834D50329E8C663D6ABE86 /* FlintAmountInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintAmountInputView.h; path = FlintConnectSDK.framework/Headers/FlintAmountInputView.h; sourceTree = "<group>"; };
+		BD9F066C39B27D8430397BF1B205C305 /* FlintAmountInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintAmountInputView.h; path = FlintConnectSDK.framework/Headers/FlintAmountInputView.h; sourceTree = "<group>"; };
+		C101CC91173CE2841496BD43A933DAC9 /* FlintCardNumberEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardNumberEntryView.h; path = FlintConnectSDK.framework/Headers/FlintCardNumberEntryView.h; sourceTree = "<group>"; };
+		C3597BB9B67E7A7FC30D72B7B4209443 /* FlintActionTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintActionTextField.h; path = FlintConnectSDK.framework/Headers/FlintActionTextField.h; sourceTree = "<group>"; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		CD136856B8765BADD739FC80261A3F58 /* FlintConnectSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlintConnectSDK.framework; sourceTree = "<group>"; };
-		CD33BBC81D7C1088DD60DE659A23C09E /* FlintEmailEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintEmailEntryView.h; path = FlintConnectSDK.framework/Headers/FlintEmailEntryView.h; sourceTree = "<group>"; };
-		CDF4F81F319464288E55F0B7CD65F82A /* FlintOrderItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintOrderItem.h; path = FlintConnectSDK.framework/Headers/FlintOrderItem.h; sourceTree = "<group>"; };
+		CEBE22859A4494C7134000C1BD52797A /* FlintOrders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintOrders.h; path = FlintConnectSDK.framework/Headers/FlintOrders.h; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D30CD0F4041959C13468FD86BB63D5A9 /* FlintRoundButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintRoundButton.h; path = FlintConnectSDK.framework/Headers/FlintRoundButton.h; sourceTree = "<group>"; };
-		D6677E9E15B3CC2D40961DAD8F60670D /* FlintLineTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintLineTextField.h; path = FlintConnectSDK.framework/Headers/FlintLineTextField.h; sourceTree = "<group>"; };
+		D08D1134C16D15F30F560B8AA2153D23 /* FlintDateEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintDateEntryView.h; path = FlintConnectSDK.framework/Headers/FlintDateEntryView.h; sourceTree = "<group>"; };
+		D1A72A8CB645B70820551E82BC56A608 /* FlintHeaderImport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintHeaderImport.h; path = FlintConnectSDK.framework/Headers/FlintHeaderImport.h; sourceTree = "<group>"; };
+		D38633E367A3D9280CC0461F30218906 /* FlintInvoice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintInvoice.h; path = FlintConnectSDK.framework/Headers/FlintInvoice.h; sourceTree = "<group>"; };
 		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		DBDC93507AA8BBB2AB09A61C123D89C7 /* FlintOrders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintOrders.h; path = FlintConnectSDK.framework/Headers/FlintOrders.h; sourceTree = "<group>"; };
-		DC34D4CFD63D3B929F3F1FB3FB4B8BDE /* FlintService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintService.h; path = FlintConnectSDK.framework/Headers/FlintService.h; sourceTree = "<group>"; };
-		E2ED807F41AB291EF4FC4F57783CD32A /* FlintNumericKeyPadView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintNumericKeyPadView.h; path = FlintConnectSDK.framework/Headers/FlintNumericKeyPadView.h; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E91C4267B7D6137A45EE9616387CE941 /* FlintImageStabilizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintImageStabilizer.h; path = FlintConnectSDK.framework/Headers/FlintImageStabilizer.h; sourceTree = "<group>"; };
-		EE5E255A183A84343F2EBA7A7D57C8F3 /* FlintScanResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintScanResult.h; path = FlintConnectSDK.framework/Headers/FlintScanResult.h; sourceTree = "<group>"; };
-		EF74A89ECD15A31DC5E800FC4B77854E /* FlintAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintAddress.h; path = FlintConnectSDK.framework/Headers/FlintAddress.h; sourceTree = "<group>"; };
-		F3AF64C81CFEEE47D4435B614201DAA3 /* FlintModelEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintModelEnum.h; path = FlintConnectSDK.framework/Headers/FlintModelEnum.h; sourceTree = "<group>"; };
-		F4BC0C21D49E629A3DB5167F48B594AF /* FlintTextEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTextEntryView.h; path = FlintConnectSDK.framework/Headers/FlintTextEntryView.h; sourceTree = "<group>"; };
-		F6A6C5F4737CD5915C186D77DBECBCE7 /* FlintDateEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintDateEntryView.h; path = FlintConnectSDK.framework/Headers/FlintDateEntryView.h; sourceTree = "<group>"; };
-		F9AA8DD7D5CAB13F27A6A7D310C72127 /* FlintAPIConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintAPIConfig.h; path = FlintConnectSDK.framework/Headers/FlintAPIConfig.h; sourceTree = "<group>"; };
-		FE96B43AB9B999398C7BB9AE2F6D3A72 /* FlintOrder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintOrder.h; path = FlintConnectSDK.framework/Headers/FlintOrder.h; sourceTree = "<group>"; };
+		E93783459886A72231FAEDF6FF50128C /* FlintLimitTextEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintLimitTextEntryView.h; path = FlintConnectSDK.framework/Headers/FlintLimitTextEntryView.h; sourceTree = "<group>"; };
+		F9FA75DEDA28139CFE4CA2175A069740 /* FlintRiskDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintRiskDetector.h; path = FlintConnectSDK.framework/Headers/FlintRiskDetector.h; sourceTree = "<group>"; };
+		FA428BDD7EDF5E93733A7D391C52D397 /* FlintReceiptOptionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintReceiptOptionView.h; path = FlintConnectSDK.framework/Headers/FlintReceiptOptionView.h; sourceTree = "<group>"; };
+		FB82A16B2F0C8079A4589392A7AF99B1 /* FlintTransactionLimits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTransactionLimits.h; path = FlintConnectSDK.framework/Headers/FlintTransactionLimits.h; sourceTree = "<group>"; };
+		FDE6920B039399C7996C8557F7231E48 /* FlintRoundSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintRoundSelectionView.h; path = FlintConnectSDK.framework/Headers/FlintRoundSelectionView.h; sourceTree = "<group>"; };
+		FE428F3C79605AE80D0DF16B6D52FA8C /* FlintCardScannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintCardScannerView.h; path = FlintConnectSDK.framework/Headers/FlintCardScannerView.h; sourceTree = "<group>"; };
+		FE6263CCBBCBA20F891CE7DC9DF70F7A /* FlintTipSelectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintTipSelectionView.h; path = FlintConnectSDK.framework/Headers/FlintTipSelectionView.h; sourceTree = "<group>"; };
+		FEA80F301FFD8FD7C4FDB77E2DFF2162 /* FlintNumberEntryView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlintNumberEntryView.h; path = FlintConnectSDK.framework/Headers/FlintNumberEntryView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,66 +117,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		418A272CB40EC9BA7FFFD53A72EA0554 /* FlintConnectSDK */ = {
+		6F29E8A697E726FD8D48B78CF686D678 /* FlintConnectSDK */ = {
 			isa = PBXGroup;
 			children = (
-				5F92A5B9BCC0C57B73CC6EBB2F38A315 /* FlintAccount.h */,
-				217ACDFD243B1603DD0BC6B50D80083F /* FlintActionTextField.h */,
-				EF74A89ECD15A31DC5E800FC4B77854E /* FlintAddress.h */,
-				CB87EBDCC9834D50329E8C663D6ABE86 /* FlintAmountInputView.h */,
-				F9AA8DD7D5CAB13F27A6A7D310C72127 /* FlintAPIConfig.h */,
-				0B5BB250D62D6D9681F32AE519890D73 /* FlintCardDetailView.h */,
-				3017C02B4590572FE9D702B60DC862DA /* FlintCardEntryView.h */,
-				C50B62E3B1BA68E177717874F376C991 /* FlintCardNumberEntryView.h */,
-				36D2E23477FDD6E240FDF7FA31104BC4 /* FlintCardNumbersEditorView.h */,
-				C3A9D25513E8283BFA0D24AA8F7F1A14 /* FlintCardScanner.h */,
-				A363683A995D0E9BC6C4083D59EBE696 /* FlintCardScannerView.h */,
-				A0E6F4E65DAEA9AF64E54BFB9D2C451A /* FlintCardSigningView.h */,
-				107847455B81BEC389D2B8A577C8C25D /* FlintCardValidationView.h */,
-				0D295972F75382028D1C954B001BA649 /* FlintCardValidator.h */,
-				849CB8166068128BCB7C66863E1DF4DE /* FlintConnectSDK.h */,
-				ADB6DB0301B48BCBA203CA385CD800B5 /* FlintContact.h */,
-				5D3791B790ADBB6AC51E2B8E7A8F9697 /* FlintCreditCard.h */,
-				02005649B664D97EB0C541C96BE3DFE0 /* FlintCSSConstant.h */,
-				F6A6C5F4737CD5915C186D77DBECBCE7 /* FlintDateEntryView.h */,
-				A83E97B7C70744844197040A7376B359 /* FlintDigitEditorView.h */,
-				1610B635AC7E44D6AD3DC30F3A004FC6 /* FlintDomainObject.h */,
-				38F7D539FD91A6B37E486D51DA2B2FD3 /* FlintEmailAddress.h */,
-				CD33BBC81D7C1088DD60DE659A23C09E /* FlintEmailEntryView.h */,
-				37AE3F8801C1738235EF12534CD4AE08 /* FlintFixedToolBar.h */,
-				3FAF1EE91619CBC1763D6CC933699591 /* FlintHeaderImport.h */,
-				E91C4267B7D6137A45EE9616387CE941 /* FlintImageStabilizer.h */,
-				60495CE71B996E53D614ECDE12DA1603 /* FlintInvoice.h */,
-				0D0BA6FE1D610D01F29E943405E5813C /* FlintLimitTextEntryView.h */,
-				D6677E9E15B3CC2D40961DAD8F60670D /* FlintLineTextField.h */,
-				9613B7E3F91ABA2E611058C7D58C9C00 /* FlintMerchant.h */,
-				F3AF64C81CFEEE47D4435B614201DAA3 /* FlintModelEnum.h */,
-				0FF3782EF23FD36C8BF8D58F457CFF60 /* FlintNumberEntryView.h */,
-				E2ED807F41AB291EF4FC4F57783CD32A /* FlintNumericKeyPadView.h */,
-				FE96B43AB9B999398C7BB9AE2F6D3A72 /* FlintOrder.h */,
-				CDF4F81F319464288E55F0B7CD65F82A /* FlintOrderItem.h */,
-				DBDC93507AA8BBB2AB09A61C123D89C7 /* FlintOrders.h */,
-				7FA78E117B4C9DA80C937506E77E04CB /* FlintPayment.h */,
-				60E068D27983B204EA27142521F0BE51 /* FlintPermissions.h */,
-				791DC463EA10895A7EA213AD4DD723E4 /* FlintPhoneEntryView.h */,
-				B7433DA13B2BB97663BE0458E86EEDE3 /* FlintPhoneNumber.h */,
-				79BD84BDA688CCC64D801529D7481877 /* FlintReceiptOptionView.h */,
-				D30CD0F4041959C13468FD86BB63D5A9 /* FlintRoundButton.h */,
-				6860BF50012CA1962BC4625FEFF64390 /* FlintRoundSelectionView.h */,
-				9625ED443DDBB9BA1D9831FA178FDF09 /* FlintScannedDigit.h */,
-				EE5E255A183A84343F2EBA7A7D57C8F3 /* FlintScanResult.h */,
-				DC34D4CFD63D3B929F3F1FB3FB4B8BDE /* FlintService.h */,
-				961B9EBFD62C795BF57E8DBBE27A7580 /* FlintSignatureView.h */,
-				F4BC0C21D49E629A3DB5167F48B594AF /* FlintTextEntryView.h */,
-				535E08B16FFAFBC0E0C15B7CB3447B91 /* FlintTextField.h */,
-				03D94E599DF4351F93F5E88E6A1D149D /* FlintThemeEngine.h */,
-				C45F90A43FA568A544DD36F993E674E3 /* FlintTipInputView.h */,
-				1A1E4177C93CE32139AA73E61AA392AA /* FlintTipItem.h */,
-				4F0066E0AC7FA9D6024075224EBF4FF4 /* FlintTipSelectionView.h */,
-				3E79A3251E9322978AB564FF2DADFCFF /* FlintTransaction.h */,
-				7EF4F911C7229B34FA64E81355E7B9FA /* FlintTransactionLimits.h */,
-				11C3D2505BB2DBD739F0BB76F02D73F9 /* FlintUI.h */,
-				9C9803A29996F6106333A6A2BF434A31 /* Frameworks */,
+				45E619742CC33E2BADD0CBBD1C8BB3C9 /* FlintAccount.h */,
+				C3597BB9B67E7A7FC30D72B7B4209443 /* FlintActionTextField.h */,
+				5C8ACAF3F1164DC542B56FF1A186359F /* FlintAddress.h */,
+				BD9F066C39B27D8430397BF1B205C305 /* FlintAmountInputView.h */,
+				79087202255F1127E61C0EC9DC51F872 /* FlintAPIConfig.h */,
+				28208E0492C78F187B458E3B7FE496E0 /* FlintCardDetailView.h */,
+				1D033D4E3B69F427236EABBF8E5B1F0E /* FlintCardEntryView.h */,
+				C101CC91173CE2841496BD43A933DAC9 /* FlintCardNumberEntryView.h */,
+				0CBE123CF88A49DB599F280F1CC8D3CF /* FlintCardNumbersEditorView.h */,
+				0BECA4B0E59C3DB725BA07CB8468044D /* FlintCardScanner.h */,
+				FE428F3C79605AE80D0DF16B6D52FA8C /* FlintCardScannerView.h */,
+				5181A8D4648527737725DFFADB7FD103 /* FlintCardSigningView.h */,
+				414C39BC7DF947AA0BBD3BC273033379 /* FlintCardValidationView.h */,
+				86460A60A86B3C0473B653E168C1E442 /* FlintCardValidator.h */,
+				1C78ED515E16A47FB5640313DB0A4EB6 /* FlintConnectSDK.h */,
+				9CC4CC809ACDD30C560A6A33421A8FBB /* FlintContact.h */,
+				A61C3AC91816ED6D1FB55F3AF5B6C5CA /* FlintCreditCard.h */,
+				8DBC1AA3531DE0671916CC9F1D069809 /* FlintCSSConstant.h */,
+				D08D1134C16D15F30F560B8AA2153D23 /* FlintDateEntryView.h */,
+				1900834E0A1D10D617E6D947293722E9 /* FlintDigitEditorView.h */,
+				92ACB170EF6193A1691BE78EA45DF0DA /* FlintDomainObject.h */,
+				3A44D7E74B70B8FB19C3615B1F2D0C8D /* FlintEmailAddress.h */,
+				88F4329309E757F6131B4AE5CF26877C /* FlintEmailEntryView.h */,
+				48C8463F922C27252678A98913D7F409 /* FlintFixedToolBar.h */,
+				D1A72A8CB645B70820551E82BC56A608 /* FlintHeaderImport.h */,
+				3370885E1D17DF95B65004E1F6738227 /* FlintImageStabilizer.h */,
+				D38633E367A3D9280CC0461F30218906 /* FlintInvoice.h */,
+				E93783459886A72231FAEDF6FF50128C /* FlintLimitTextEntryView.h */,
+				86440B60A8658F8FA98BE17673370BF7 /* FlintLineTextField.h */,
+				67A808682503797A0968558586895F91 /* FlintMerchant.h */,
+				3058B352EDFB08CF99277BFC102DB6AF /* FlintModelEnum.h */,
+				FEA80F301FFD8FD7C4FDB77E2DFF2162 /* FlintNumberEntryView.h */,
+				64E48568915CE71DB2E5C5A7C9A8627A /* FlintNumericKeyPadView.h */,
+				763A77B4771C175524AB47071DBE01F3 /* FlintOrder.h */,
+				65B8F9620E2CACEACBB536C67875C2A3 /* FlintOrderItem.h */,
+				CEBE22859A4494C7134000C1BD52797A /* FlintOrders.h */,
+				973B163C7894A3A15FA0897389D22D9D /* FlintPayment.h */,
+				36E3759619253E7BD9A8E228CB00CDBB /* FlintPermissions.h */,
+				432A64BF6A413FFF5BC8565DD9671AF5 /* FlintPhoneEntryView.h */,
+				442E0419B3AF01B855C4474AC54C8883 /* FlintPhoneNumber.h */,
+				FA428BDD7EDF5E93733A7D391C52D397 /* FlintReceiptOptionView.h */,
+				3FEB9007B9DF19F59F7870198F27AED4 /* FlintResources.h */,
+				F9FA75DEDA28139CFE4CA2175A069740 /* FlintRiskDetector.h */,
+				2B113C515B0C783F35659B055D63D63E /* FlintRoundButton.h */,
+				FDE6920B039399C7996C8557F7231E48 /* FlintRoundSelectionView.h */,
+				9EECCCC8E50955BC963208C7B671C8E9 /* FlintScannedDigit.h */,
+				45FF46E383126AD9049E4105AD8F5F5D /* FlintScanResult.h */,
+				47FFD4DB68AE8C2D7B5EC86004B74498 /* FlintService.h */,
+				B3E20B0442C3624B03CEFFDEA23AD7A3 /* FlintSignatureView.h */,
+				82DD842F230EA2A04C9B220A8253D998 /* FlintTextEntryView.h */,
+				78597C27103D37DD9F9B5E9C14B0C35B /* FlintTextField.h */,
+				AC32E45EF0DBBCC972944A8D671625E3 /* FlintThemeEngine.h */,
+				4E8600028A46FB6361F5227527B8704C /* FlintTipInputView.h */,
+				A5C3004D414AB4060923C764F60CF093 /* FlintTipItem.h */,
+				FE6263CCBBCBA20F891CE7DC9DF70F7A /* FlintTipSelectionView.h */,
+				7A841B3D9FC5CD4CE93382DDACAECEF1 /* FlintTransaction.h */,
+				FB82A16B2F0C8079A4589392A7AF99B1 /* FlintTransactionLimits.h */,
+				8C9F4D278E32C586EC1DC1C2304E5F16 /* FlintUI.h */,
+				A287CCCC186FA2C03FEEB0FE890B403A /* Frameworks */,
 			);
 			path = FlintConnectSDK;
 			sourceTree = "<group>";
@@ -202,24 +206,24 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				818F2827BB38E33FE91D1649AF71F996 /* Pods */,
+				9480C8BC66F2C9EDB401D3CB9EBCE1C7 /* Pods */,
 				A43424AE811682A33E92EF7596288A10 /* Products */,
 				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		818F2827BB38E33FE91D1649AF71F996 /* Pods */ = {
+		9480C8BC66F2C9EDB401D3CB9EBCE1C7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				418A272CB40EC9BA7FFFD53A72EA0554 /* FlintConnectSDK */,
+				6F29E8A697E726FD8D48B78CF686D678 /* FlintConnectSDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9C9803A29996F6106333A6A2BF434A31 /* Frameworks */ = {
+		A287CCCC186FA2C03FEEB0FE890B403A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CD136856B8765BADD739FC80261A3F58 /* FlintConnectSDK.framework */,
+				2DB9499705E536C6290ACB23043E4821 /* FlintConnectSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -371,48 +375,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2079CF68965205A3B7BCECA7D1ACC9AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = FlintConnect;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		50D1396EAA850C1DF4D1D7F187F2F732 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		68652A965E2D9B53603724FDA50A57D5 /* Debug */ = {
+		009513D55043E9834455D78D3FBD5F1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
 			buildSettings = {
@@ -422,6 +385,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -442,9 +406,41 @@
 			};
 			name = Debug;
 		};
-		A49550443DE6A034017007A6AF20C5E3 /* Release */ = {
+		5D6C4C95EADEFE369237A7012CF47D73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4B1397EBE26FEADA7F9DBE631EB186A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = FlintConnect;
 				SDKROOT = iphoneos;
@@ -452,6 +448,18 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		A6F15E8BCB2848311D811C74D833DE74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FlintConnect;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -541,8 +549,8 @@
 		A02A33E389FE3F9C8DCEC12FA40D9E06 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68652A965E2D9B53603724FDA50A57D5 /* Debug */,
-				50D1396EAA850C1DF4D1D7F187F2F732 /* Release */,
+				009513D55043E9834455D78D3FBD5F1C /* Debug */,
+				5D6C4C95EADEFE369237A7012CF47D73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -550,8 +558,8 @@
 		B9924E89F4DA7A28CAC4263D3D98437F /* Build configuration list for PBXNativeTarget "FlintConnectSDK-FlintConnect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2079CF68965205A3B7BCECA7D1ACC9AB /* Debug */,
-				A49550443DE6A034017007A6AF20C5E3 /* Release */,
+				A6F15E8BCB2848311D811C74D833DE74 /* Debug */,
+				A4B1397EBE26FEADA7F9DBE631EB186A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
